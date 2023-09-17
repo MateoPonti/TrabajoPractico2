@@ -4,37 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Creacion del repositorio">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Club.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Socio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Tipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Cuadrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Rectangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Triangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/Cubo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/Esfera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/FiguraTresDimensiones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/Paralelepipedo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/Tetraedo.java" afterDir="false" />
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Creacion de ejercicios y ejercicio 9 casi completo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/SuscripcionIntermedia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Club.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Socio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Socio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +70,8 @@
       <workItem from="1694859611799" duration="384000" />
       <workItem from="1694969130703" duration="136000" />
       <workItem from="1694969286447" duration="623000" />
-      <workItem from="1694969940159" duration="4840000" />
+      <workItem from="1694969940159" duration="5021000" />
+      <workItem from="1694975814624" duration="2157000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -115,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694727761372</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creacion de ejercicios y ejercicio 9 casi completo">
+      <option name="closed" value="true" />
+      <created>1694974888327</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694974888327</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion del repositorio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion del repositorio" />
+    <MESSAGE value="Creacion de ejercicios y ejercicio 9 casi completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de ejercicios y ejercicio 9 casi completo" />
   </component>
 </project>
