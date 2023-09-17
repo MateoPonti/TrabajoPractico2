@@ -5,7 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Creacion del repositorio">
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/SuscripcionIntermedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Club.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Socio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Tipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Cuadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/Cubo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/Esfera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/FiguraTresDimensiones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/Paralelepipedo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/Tetraedo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/SuscripcionIntermedia.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -22,29 +52,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: -1
 }</component>
   <component name="ProjectId" id="2VKRlHwsjDyjp1TAWzC2c9BOeZ2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +91,13 @@
       <updated>1694582941538</updated>
       <workItem from="1694582942381" duration="48000" />
       <workItem from="1694643774600" duration="234000" />
-      <workItem from="1694727080784" duration="605000" />
+      <workItem from="1694727080784" duration="1552000" />
+      <workItem from="1694730060711" duration="324000" />
+      <workItem from="1694858969083" duration="10000" />
+      <workItem from="1694859611799" duration="384000" />
+      <workItem from="1694969130703" duration="136000" />
+      <workItem from="1694969286447" duration="623000" />
+      <workItem from="1694969940159" duration="4840000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -65,11 +107,30 @@
       <option name="project" value="LOCAL" />
       <updated>1694727475610</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creacion del repositorio">
+      <option name="closed" value="true" />
+      <created>1694727761372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694727761372</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion del repositorio" />
