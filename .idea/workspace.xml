@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Creacion de ejercicios y ejercicio 9 casi completo">
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Inicio ej1">
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Actividad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Club.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Socio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Socio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,9 @@
       <workItem from="1694969130703" duration="136000" />
       <workItem from="1694969286447" duration="623000" />
       <workItem from="1694969940159" duration="5021000" />
-      <workItem from="1694975814624" duration="2157000" />
+      <workItem from="1694975814624" duration="2248000" />
+      <workItem from="1695001569319" duration="729000" />
+      <workItem from="1695005926157" duration="479000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -97,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694974888327</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Inicio ej1">
+      <option name="closed" value="true" />
+      <created>1694978022992</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694978022992</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion del repositorio" />
     <MESSAGE value="Creacion de ejercicios y ejercicio 9 casi completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion de ejercicios y ejercicio 9 casi completo" />
+    <MESSAGE value="Inicio ej1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio ej1" />
   </component>
 </project>

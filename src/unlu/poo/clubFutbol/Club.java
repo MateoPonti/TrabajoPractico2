@@ -9,10 +9,11 @@ import java.time.format.DateTimeParseException;
 
 public class Club {
     ArrayList<Socio> listaDeSocios;
-
+    ArrayList<Actividad> listaDeActividades;
 
     public Club(){
         listaDeSocios= new ArrayList<>();
+        listaDeActividades= new ArrayList<>();
     }
 
     public boolean cargarSocio(String nombre,Tipo suscrip, int tel, String correo,String dia){
@@ -60,6 +61,40 @@ public class Club {
         }
      return -1;
     }
+
+
+    public boolean agregarActividad(String titulo, Tipo actividad){
+        if (!buscarActivdad(titulo)){
+            listaDeActividades.add(new Actividad(titulo,actividad));
+            return true;
+        }
+        return false;
+    }
+
+    private boolean buscarActivdad(String titulo){
+        Actividad actividadComparar=new Actividad(titulo,Tipo.BASICA);
+        for (Actividad act:listaDeActividades){
+            if (act.equals(actividadComparar)){
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    private String buscarActidadTipo(Tipo tipo){
+        StringBuilder listaSociosActividad= new StringBuilder();
+        listaSociosActividad.append("Actividad de la suscripcion "+tipo.toString());
+        for (Actividad act:listaDeActividades){
+            if (act.compararActividad(tipo)){listaSociosActividad.append("-").append(act).append("\n");}}
+        return listaSociosActividad.toString();
+    }
+    public String devolverListaActividades(){
+        StringBuilder listaSociosActividad= new StringBuilder();
+        listaSociosActividad.append(buscarActidadTipo(Tipo.BASICA)).append(buscarActidadTipo(Tipo.INTERMEDIA)).append(buscarActidadTipo(Tipo.DESTACADA));
+        return listaSociosActividad.toString();
+    }
+
 
 
 
