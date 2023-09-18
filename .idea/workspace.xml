@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Inicio ej1">
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Actividad.java" afterDir="false" />
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="ej1 casi terminado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Actividad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Actividad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Club.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Socio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/clubFutbol/Socio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/Tetraedo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/Tetraedo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +76,9 @@
       <workItem from="1694969940159" duration="5021000" />
       <workItem from="1694975814624" duration="2248000" />
       <workItem from="1695001569319" duration="729000" />
-      <workItem from="1695005926157" duration="479000" />
+      <workItem from="1695005926157" duration="534000" />
+      <workItem from="1695008471329" duration="1541000" />
+      <workItem from="1695010056647" duration="427000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -107,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694978022992</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ej1 casi terminado">
+      <option name="closed" value="true" />
+      <created>1695006447766</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695006447766</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +141,7 @@
     <MESSAGE value="Creacion del repositorio" />
     <MESSAGE value="Creacion de ejercicios y ejercicio 9 casi completo" />
     <MESSAGE value="Inicio ej1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio ej1" />
+    <MESSAGE value="ej1 casi terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ej1 casi terminado" />
   </component>
 </project>

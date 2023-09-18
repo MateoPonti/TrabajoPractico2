@@ -1,6 +1,6 @@
 package unlu.poo.figurasGeometricas.tresDimensiones;
 
-public class Tetraedo {
+public class Tetraedo extends FiguraTresDimensiones{
 
     private double arista;
     public Tetraedo(double arista){
@@ -15,7 +15,7 @@ public class Tetraedo {
     }
 
     public void setArista(double arista) {
-        this.arista1 = arista;
+        this.arista = arista;
     }
 
 

@@ -27,15 +27,16 @@ public class Actividad {
 
 
     @Override
+    public String toString() {
+        return titulo;
+    }
+
     public boolean equals(Actividad act) {
-        return act.getSuscripcionRequerida()==suscripcionRequerida;
+        return titulo.compareToIgnoreCase(act.toString())==0;
     }
 
     public boolean compararActividad(Tipo tipo){
         return tipo.ordinal()>=suscripcionRequerida.ordinal();
     }
-    @Override
-    public String toString() {
-        return titulo;
-    }
+
 }

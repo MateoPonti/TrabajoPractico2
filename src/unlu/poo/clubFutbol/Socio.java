@@ -6,7 +6,7 @@ public class Socio {
     private Suscripcion suscripcion;
     private String nombre;
 
-    private  int telefono;
+    private  String telefono;
 
 
     private LocalDate fechaInscripcion;
@@ -21,7 +21,7 @@ public class Socio {
 
 
 
-    public Socio(String nombre, Suscripcion suscripcion, int tel, String correo, LocalDate fecha) {
+    public Socio(String nombre, Suscripcion suscripcion, String tel, String correo, LocalDate fecha) {
         this.nombre=nombre;
         this.suscripcion=suscripcion;
         this.correo=correo;
@@ -52,11 +52,11 @@ public class Socio {
         this.nombre = nombre;
     }
 
-    public int getTelefono() {
+    public String getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(int telefono) {
+    public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
 
@@ -73,6 +73,10 @@ public class Socio {
     }
 
 
+    public  boolean compararMesInscripcion(LocalDate fecha){
+
+        return fecha.getMonth()==fechaInscripcion.getMonth() && fecha.getYear()==fechaInscripcion.getYear();
+    }
 
 
 }

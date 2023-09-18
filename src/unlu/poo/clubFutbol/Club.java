@@ -16,10 +16,11 @@ public class Club {
         listaDeActividades= new ArrayList<>();
     }
 
-    public boolean cargarSocio(String nombre,Tipo suscrip, int tel, String correo,String dia){
+    public boolean cargarSocio(String nombre,Tipo suscrip, String tel, String correo,String dia){
         try    {
             LocalDate fecha=LocalDate.parse(dia,DateTimeFormatter.ofPattern("dd-MM-yyyy"));
             Socio socio= new Socio(nombre,new Suscripcion(suscrip),tel,correo,fecha);
+            listaDeSocios.add(socio);
             return true;
         }
         catch (DateTimeParseException  e){
@@ -29,6 +30,7 @@ public class Club {
 
     public String devolverSocios(){
         StringBuilder listaSocios= new StringBuilder();
+        listaSocios.append("Lista Socios").append("\n");
         for (Socio socio:listaDeSocios){
             listaSocios.append("-").append(socio).append("\n");
         }
@@ -45,9 +47,10 @@ public class Club {
 
     private String cargarValor(Tipo tipo){
         StringBuilder listaSociosPorSuscripcion= new StringBuilder();
-        listaSociosPorSuscripcion.append("Suscriptores de la suscripcion "+tipo.toString());
+        listaSociosPorSuscripcion.append("Suscriptores de la suscripcion "+tipo.toString()).append("\n");
         for (Socio socio:listaDeSocios){
         if (socio.getSuscripcion().comparar(tipo)){listaSociosPorSuscripcion.append("-").append(socio).append("\n");}}
+        listaSociosPorSuscripcion.append("\n");
         return listaSociosPorSuscripcion.toString();
     }
 
@@ -62,6 +65,15 @@ public class Club {
      return -1;
     }
 
+
+    public String sociosInscriptosEsteMes(){
+        LocalDate fecha= LocalDate.now();
+        StringBuilder listaSociosInscriptosEsteMes=new StringBuilder();
+        listaSociosInscriptosEsteMes.append("Inscriptos el Mes de "+fecha.getMonth().toString()).append(" de este Año: ").append("\n");
+        for (Socio socio:listaDeSocios){
+            if (socio.compararMesInscripcion(fecha)){listaSociosInscriptosEsteMes.append("-").append(socio).append("\n");}}
+        return listaSociosInscriptosEsteMes.toString();
+    }
 
     public boolean agregarActividad(String titulo, Tipo actividad){
         if (!buscarActivdad(titulo)){
@@ -84,9 +96,10 @@ public class Club {
 
     private String buscarActidadTipo(Tipo tipo){
         StringBuilder listaSociosActividad= new StringBuilder();
-        listaSociosActividad.append("Actividad de la suscripcion "+tipo.toString());
+        listaSociosActividad.append("Actividad de la suscripcion "+tipo.toString()).append("\n");
         for (Actividad act:listaDeActividades){
             if (act.compararActividad(tipo)){listaSociosActividad.append("-").append(act).append("\n");}}
+        listaSociosActividad.append("\n");
         return listaSociosActividad.toString();
     }
     public String devolverListaActividades(){
