@@ -1,6 +1,14 @@
 package unlu.poo.clubFutbol;
 
 public class Suscripcion {
+    public Tipo getTipo() {
+        return tipo;
+    }
+
+    public int getPrecio() {
+        return precio;
+    }
+
     private Tipo tipo;
 
     private int precio;

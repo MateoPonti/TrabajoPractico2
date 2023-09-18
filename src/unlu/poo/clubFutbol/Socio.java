@@ -34,7 +34,7 @@ public class Socio {
 
     @Override
     public String toString() {
-      return "id: "+id+", nombre: "+ getNombre()+" , Suscripcion : "+suscripcion.toString()+ " , correo : "+getCorreo()+ ", telefono: "+getTelefono();}
+      return "id: "+id+", nombre: "+ getNombre()+" , Suscripcion : "+suscripcion.getTipo().toString()+ " , correo : "+getCorreo()+ ", telefono: "+getTelefono()+", dia de inscripcion: "+this.fechaInscripcion.toString();}
 
 
     public void setSuscripcion(Suscripcion suscripcion){
