@@ -1,13 +1,6 @@
 package unlu.poo.clubFutbol;
 
 public class Suscripcion {
-    public Tipo getTipo() {
-        return tipo;
-    }
-
-    public int getPrecio() {
-        return precio;
-    }
 
     private Tipo tipo;
 
@@ -15,16 +8,17 @@ public class Suscripcion {
 
 
     public Suscripcion(Tipo tipo){
-        this.tipo=tipo;
+        setSuscripcion(tipo);
     }
 
 
 
-    public void cambiarSuscripcion(Tipo tipo){
+    public void setSuscripcion(Tipo tipo){
         this.tipo=tipo;
         asignarValores();
     }
     
+
 
     private void asignarValores(){
         precio=700;
@@ -36,5 +30,14 @@ public class Suscripcion {
     public boolean comparar(Tipo tipoSuscripcion){
         return tipo==tipoSuscripcion;
     }
+
+    public Tipo getTipo() {
+        return tipo;
+    }
+
+    public int getPrecio() {
+        return precio;
+    }
+
 
 }
