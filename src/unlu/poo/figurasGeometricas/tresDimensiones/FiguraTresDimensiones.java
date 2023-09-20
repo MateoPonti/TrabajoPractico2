@@ -2,11 +2,9 @@ package unlu.poo.figurasGeometricas.tresDimensiones;
 
 import unlu.poo.figurasGeometricas.Figura;
 
-public class FiguraTresDimensiones extends Figura {
+public abstract class FiguraTresDimensiones extends Figura {
 
-    public double getVolumen(){
-        return 0;
-    }
+    public abstract double getVolumen();
 
 
 

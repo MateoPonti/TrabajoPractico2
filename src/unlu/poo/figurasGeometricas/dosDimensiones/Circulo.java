@@ -1,8 +1,7 @@
 package unlu.poo.figurasGeometricas.dosDimensiones;
 
-import unlu.poo.figurasGeometricas.Figura;
 
-public class Circulo  extends Figura {
+public class Circulo  extends FiguraDosDimensiones {
     private double radio;
 
 

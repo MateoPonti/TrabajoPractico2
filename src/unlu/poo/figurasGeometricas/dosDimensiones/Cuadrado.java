@@ -1,8 +1,7 @@
 package unlu.poo.figurasGeometricas.dosDimensiones;
 
-import unlu.poo.figurasGeometricas.Figura;
 
-public class Cuadrado extends Figura {
+public class Cuadrado extends FiguraDosDimensiones {
 
     private double lado;
 

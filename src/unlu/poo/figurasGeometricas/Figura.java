@@ -1,7 +1,5 @@
 package unlu.poo.figurasGeometricas;
 
-public class Figura {
-    public double getArea(){
-        return 0;
-    }
+public abstract class Figura {
+    public abstract double getArea();
 }

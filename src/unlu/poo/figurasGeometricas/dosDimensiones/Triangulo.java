@@ -1,6 +1,6 @@
-import unlu.poo.figurasGeometricas.Figura;
+import unlu.poo.figurasGeometricas.dosDimensiones.FiguraDosDimensiones;
 
-public class Triangulo extends Figura {
+public class Triangulo extends FiguraDosDimensiones {
 
     private double base;
     private double altura;

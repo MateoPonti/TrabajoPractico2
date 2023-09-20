@@ -1,8 +1,7 @@
 package unlu.poo.figurasGeometricas.dosDimensiones;
 
-import unlu.poo.figurasGeometricas.Figura;
 
-public class Rectangulo extends Figura {
+public class Rectangulo extends FiguraDosDimensiones {
     private double base;
     private double altura;
 
