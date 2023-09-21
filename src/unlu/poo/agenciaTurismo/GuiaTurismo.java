@@ -14,13 +14,21 @@ public class GuiaTurismo {
     }
 
 
-    public boolean guiaEstaExcursion(Excursion excursion){
+    public boolean guiaEstaExcursion(Excursion excursion){ // para saber si el guia guía esta excursion
         for (Excursion ex:excursionesGuia){
             if (ex.equals(excursion)){return true;}
         }
         return false;
     }
 
+    public boolean guiaLasExcursiones(ArrayList<Excursion> excursiones){ // para saber si un guia guía esta excursiones
+        for(Excursion e:excursiones){
+            if (!guiaEstaExcursion(e)){
+                return false;
+            }
+        }
+        return true;
+    }
     public void agregarExcursion(Excursion ex){
         this.excursionesGuia.add(ex);
     }
@@ -46,4 +54,7 @@ public class GuiaTurismo {
     public String toString() {
         return nombre;
     }
+
+    public boolean equals(GuiaTurismo g) {
+        return  g.getNombre().equals(nombre);}
 }

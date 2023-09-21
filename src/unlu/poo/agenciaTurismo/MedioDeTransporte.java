@@ -24,4 +24,13 @@ public class MedioDeTransporte {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+    @Override
+    public String toString() {
+        return "nombre: "+getNombre()+", Tipo: "+getTipo().toString();
+    }
+
+    public boolean equals(MedioDeTransporte md) {
+        return md.getTipo()==tipo  && md.getNombre().equals(nombre);
+    }
 }

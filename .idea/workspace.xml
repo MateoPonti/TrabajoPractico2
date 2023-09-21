@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Haciendo Ej2">
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/TipoMedio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/TipoHospedaje.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Agencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Agencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Compra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Excursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Excursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/GuiaTurismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/GuiaTurismo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Hospedaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Hospedaje.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/MedioDeTransporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/MedioDeTransporte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/PaqueteTurismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/PaqueteTurismo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/TipoMedio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/TipoMedio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <workItem from="1695184492277" duration="3375000" />
       <workItem from="1695236388727" duration="87000" />
       <workItem from="1695242017662" duration="2657000" />
-      <workItem from="1695322773173" duration="4215000" />
+      <workItem from="1695322773173" duration="7176000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -178,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695249428847</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Haciendo Ej2">
+      <option name="closed" value="true" />
+      <created>1695327062444</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695327062444</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

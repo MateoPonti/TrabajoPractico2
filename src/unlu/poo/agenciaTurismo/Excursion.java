@@ -1,11 +1,13 @@
 package unlu.poo.agenciaTurismo;
 
+import java.util.ArrayList;
+
 public class Excursion {
     private String nombre;
 
 
     public Excursion(String nombre) {
-        this.nombre = nombre;
+        this.nombre = nombre.toLowerCase();
     }
 
     public String getNombre() {
@@ -13,7 +15,7 @@ public class Excursion {
     }
 
     public void setNombre(String nombre) {
-        this.nombre = nombre;
+        this.nombre = nombre.toLowerCase();
     }
 
 
@@ -25,4 +27,6 @@ public class Excursion {
     public String toString() {
         return nombre;
     }
+
+
 }

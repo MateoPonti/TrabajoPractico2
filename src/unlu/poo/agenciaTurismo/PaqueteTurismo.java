@@ -1,11 +1,13 @@
 package unlu.poo.agenciaTurismo;
 
+import java.util.ArrayList;
+
 public class PaqueteTurismo {
  private String Destino;
 
  private MedioDeTransporte medioTransporte;
 
- private Excursion excursiones;
+ private ArrayList<Excursion> excursiones;
 
  private Hospedaje hospedaje;
 
@@ -14,7 +16,7 @@ public class PaqueteTurismo {
 private static int idTotal=1;
 private int id;
 
- public PaqueteTurismo(String destino, MedioDeTransporte medioTransporte, Excursion excursiones, Hospedaje hospedaje, GuiaTurismo guiaTurismo) {
+ public PaqueteTurismo(String destino, MedioDeTransporte medioTransporte, ArrayList<Excursion> excursiones, Hospedaje hospedaje, GuiaTurismo guiaTurismo) {
   Destino = destino.toLowerCase();
   this.medioTransporte = medioTransporte;
   this.excursiones = excursiones;
@@ -40,11 +42,11 @@ private int id;
   this.medioTransporte = medioTransporte;
  }
 
- public Excursion getExcursiones() {
+ public ArrayList<Excursion> getExcursiones() {
   return excursiones;
  }
 
- public void setExcursiones(Excursion excursiones) {
+ public void setExcursiones(ArrayList<Excursion> excursiones) {
   this.excursiones = excursiones;
  }
 

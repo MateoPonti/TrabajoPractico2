@@ -8,10 +8,35 @@ public class Agencia {
     private  ArrayList<Compra> compras;
     private  ArrayList<Excursion> excursiones;
     private  ArrayList<MedioDeTransporte> mediosTransporte;
-    private  ArrayList<Hospedaje> hospedaje;
+    private  ArrayList<Hospedaje> hospedajes;
     private  ArrayList<PaqueteTurismo> paqueteTurismo;
     private  ArrayList<GuiaTurismo> guias;
 
+    public void agregarHospedaje( String nombre,TipoHospedaje tipo){
+        hospedajes.add(new Hospedaje(nombre,tipo));
+    }
+
+    public String mostrarHospedaje(){
+        StringBuilder mostrarHospedajeStr= new StringBuilder();
+        mostrarHospedajeStr.append("Hospedajes: ").append("\n");
+        for(Hospedaje hd: hospedajes){
+            mostrarHospedajeStr.append(hd).append("\n");
+        }
+        return mostrarHospedajeStr.toString();
+    }
+
+    public void agregarMedioTransporte( String nombre,TipoMedio tipo){
+        mediosTransporte.add(new MedioDeTransporte(tipo,nombre));
+    }
+
+    public String mostrarMedios(){
+        StringBuilder mostrarMediosstr= new StringBuilder();
+        mostrarMediosstr.append("Medios: ").append("\n");
+        for(MedioDeTransporte md: mediosTransporte){
+            mostrarMediosstr.append(md).append("\n");
+        }
+        return mostrarMediosstr.toString();
+    }
     public void agregarGuia(String nombre){
         guias.add(new GuiaTurismo(nombre));
     }
@@ -54,8 +79,65 @@ public class Agencia {
     }
 
 
-    public void agregarPaqueteTurismo(String nombre, ) {
+    public boolean agregarPaqueteTurismo(String destino,String nombreMedio,TipoMedio tipoMedio, ArrayList<String> excursiones,String nombreHospedaje, TipoHospedaje tipoHospedaje, String nombreGuia) {
+        Hospedaje hd=buscarHospedaje(tipoHospedaje, nombreHospedaje);
+        MedioDeTransporte md= buscarMedio(tipoMedio,nombreMedio);
+        GuiaTurismo guia= buscarGuia(nombreGuia);
+        ArrayList<Excursion> listaExcursiones= buscarExcursiones(excursiones);
+        if(hd!=null && md!=null && guia!=null && listaExcursiones!=null && guia.guiaLasExcursiones(listaExcursiones) ){
+            paqueteTurismo.add(new PaqueteTurismo(destino,md,listaExcursiones,hd,guia));
+            return true;
+        }
+        return false;
+    }
 
+    private  MedioDeTransporte buscarMedio(TipoMedio tipo,String nombreMedio){
+        MedioDeTransporte mdComp= new MedioDeTransporte(tipo,nombreMedio);
+        for (MedioDeTransporte md:mediosTransporte){
+            if (mdComp.equals(md)){
+                return md;
+            }
+        }
+        return null;
+    }
+
+    private  Hospedaje buscarHospedaje(TipoHospedaje tipo,String nombreHospedaje){
+        Hospedaje hdComp= new Hospedaje(nombreHospedaje, tipo);
+        for (Hospedaje hd:hospedajes){
+            if (hdComp.equals(hd)){
+                return hd;
+            }
+        }
+        return null;
+    }
+
+    private  GuiaTurismo buscarGuia(String nombre){
+        GuiaTurismo guiaComp= new GuiaTurismo(nombre);
+        for (GuiaTurismo guia:guias){
+            if (guia.equals(guiaComp)){
+                return guia;
+            }
+        }
+        return null;
+    }
+
+    private ArrayList<Excursion> buscarExcursiones(ArrayList<String> excursiones){
+        ArrayList<Excursion>  listaExcursiones= new ArrayList<>();
+        for (String excursionDada: excursiones){
+            Excursion e=buscarExcursion(excursionDada);
+            if (e==null){
+                return null;
+            }
+            listaExcursiones.add(e);
+        }
+       return listaExcursiones;
+    }
+    private Excursion buscarExcursion(String nombre){
+        Excursion exComp= new Excursion(nombre);
+        for ( Excursion e:excursiones){
+            if (e.equals(exComp)){ return  e;}
+        }
+        return null;
     }
 
     public String mostrarPaquetesDeTurismo() {
