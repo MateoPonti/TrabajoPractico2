@@ -12,7 +12,18 @@ public class Agencia {
     private  ArrayList<PaqueteTurismo> paqueteTurismo;
     private  ArrayList<GuiaTurismo> guias;
 
-    public void agregarHospedaje( String nombre,TipoHospedaje tipo){
+
+    public Agencia() {
+        clientes=new ArrayList<>();
+        compras=new ArrayList<>();
+        excursiones= new ArrayList<>();
+        mediosTransporte= new ArrayList<>();
+        hospedajes= new ArrayList<>();
+        paqueteTurismo= new ArrayList<>();
+        guias= new ArrayList<>();
+    }
+
+    public void agregarHospedaje(String nombre, TipoHospedaje tipo){
         hospedajes.add(new Hospedaje(nombre,tipo));
     }
 
@@ -37,8 +48,12 @@ public class Agencia {
         }
         return mostrarMediosstr.toString();
     }
-    public void agregarGuia(String nombre){
-        guias.add(new GuiaTurismo(nombre));
+    public void agregarGuia(String nombre,ArrayList<String> excursiones){
+        GuiaTurismo guia= new GuiaTurismo(nombre);
+        for (String e:excursiones){
+            guia.agregarExcursion(e);
+        }
+        guias.add(guia);
     }
     public String mostrarGuias(){
         StringBuilder nombresGuia= new StringBuilder();
@@ -64,14 +79,17 @@ public class Agencia {
     }
 
 
-    public void agregarExcursion(String nombre) {
+    public boolean agregarExcursion(String nombre) {
+        for(Excursion e:excursiones){
+            if (e.equals(nombre)){return false;}
+        }
         excursiones.add(new Excursion(nombre));
-
+        return true;
     }
 
     public String mostrarExcursiones() {
         StringBuilder nombresExcursiones= new StringBuilder();
-        nombresExcursiones.append("Excursiones: ").append("\n");
+        nombresExcursiones.append("Excursiones de la agencia: ").append("\n");
         for(Excursion ex: excursiones){
             nombresExcursiones.append(ex).append("\n");
         }
@@ -82,10 +100,10 @@ public class Agencia {
     public boolean agregarPaqueteTurismo(String destino,String nombreMedio,TipoMedio tipoMedio, ArrayList<String> excursiones,String nombreHospedaje, TipoHospedaje tipoHospedaje, String nombreGuia) {
         Hospedaje hd=buscarHospedaje(tipoHospedaje, nombreHospedaje);
         MedioDeTransporte md= buscarMedio(tipoMedio,nombreMedio);
-        GuiaTurismo guia= buscarGuia(nombreGuia);
+        GuiaTurismo gT= buscarGuia(nombreGuia);
         ArrayList<Excursion> listaExcursiones= buscarExcursiones(excursiones);
-        if(hd!=null && md!=null && guia!=null && listaExcursiones!=null && guia.guiaLasExcursiones(listaExcursiones) ){
-            paqueteTurismo.add(new PaqueteTurismo(destino,md,listaExcursiones,hd,guia));
+        if(hd!=null && md!=null && gT!=null && listaExcursiones!=null && gT.guiaLasExcursiones(listaExcursiones) ){
+            paqueteTurismo.add(new PaqueteTurismo(destino,md,listaExcursiones,hd,gT));
             return true;
         }
         return false;
@@ -150,7 +168,6 @@ public class Agencia {
 
     }
 
-
     public boolean agregarCompra(int idCliente, int idPaqueteTurismo){
         Cliente cliente= buscarClienteid(idCliente);
         PaqueteTurismo pqt= buscarPaqueteTurismo(idPaqueteTurismo);
@@ -158,7 +175,6 @@ public class Agencia {
         compras.add(new Compra(cliente,pqt));
         return true;
     }
-
 
     private Cliente buscarClienteid(int idCliente){
         for(Cliente c:clientes){
@@ -169,7 +185,6 @@ public class Agencia {
         return null;
     }
 
-
     private PaqueteTurismo buscarPaqueteTurismo(int idPaqueteTurismo){
         for(PaqueteTurismo pqt:paqueteTurismo){
             if (pqt.compararId(idPaqueteTurismo)){
@@ -178,7 +193,6 @@ public class Agencia {
         }
         return null;
     }
-
 
     public String mostrarCompras() {
         ordenarComprasPorDestino();
@@ -189,9 +203,6 @@ public class Agencia {
         }
         return comprasStr.toString();
     }
-
-
-
 
     public String mostrarDestinoFavorito(){
         if (!compras.isEmpty()){

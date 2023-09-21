@@ -32,6 +32,6 @@ public class Hospedaje {
     }
 
     public boolean equals(Hospedaje hd) {
-        return hd.getTipo()==tipo  && hd.getNombre().equals(nombre);
+        return hd.getTipo()==tipo  && hd.getNombre().equalsIgnoreCase(nombre);
     }
 }

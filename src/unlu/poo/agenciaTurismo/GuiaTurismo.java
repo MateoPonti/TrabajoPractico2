@@ -10,7 +10,9 @@ public class GuiaTurismo {
 
 
     public GuiaTurismo(String nombre) {
+
         this.nombre = nombre;
+        excursionesGuia= new ArrayList<>();
     }
 
 
@@ -29,8 +31,8 @@ public class GuiaTurismo {
         }
         return true;
     }
-    public void agregarExcursion(Excursion ex){
-        this.excursionesGuia.add(ex);
+    public void agregarExcursion(String nombre){
+        this.excursionesGuia.add(new Excursion(nombre));
     }
 
     public String mostrarExcursion(){
@@ -52,9 +54,9 @@ public class GuiaTurismo {
 
     @Override
     public String toString() {
-        return nombre;
+        return "Nombre = "+nombre+"\n"+mostrarExcursion();
     }
 
     public boolean equals(GuiaTurismo g) {
-        return  g.getNombre().equals(nombre);}
+        return  nombre.equalsIgnoreCase(g.getNombre());}
 }

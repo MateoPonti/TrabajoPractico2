@@ -31,6 +31,6 @@ public class MedioDeTransporte {
     }
 
     public boolean equals(MedioDeTransporte md) {
-        return md.getTipo()==tipo  && md.getNombre().equals(nombre);
+        return md.getTipo()==tipo  && md.getNombre().equalsIgnoreCase(nombre);
     }
 }

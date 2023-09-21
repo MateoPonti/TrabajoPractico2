@@ -20,7 +20,7 @@ public class Excursion {
 
 
     public boolean equals(Excursion exc) {
-        return exc.getNombre().equals(nombre);
+        return exc.getNombre().equalsIgnoreCase(nombre);
     }
 
     @Override

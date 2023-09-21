@@ -67,14 +67,21 @@ private int id;
  }
 
 
+ public String mostrarExcursion(){
+  StringBuilder excursionesStr= new StringBuilder();
+  for (Excursion ex:excursiones){
+   excursionesStr.append(ex.getNombre()).append("\n");
+  }
+  return excursionesStr.toString();
+ }
  @Override
  public String toString() {
   return  "id Paquete turismo= "+id+
           " Destino= "+ Destino+
           ", medioTransporte=" + medioTransporte +
-          ", excursiones=" + excursiones +
+          ", excursiones=" +"\n"+ mostrarExcursion() +
           ", hospedaje=" + hospedaje +
-          ", guiaTurismo=" + guiaTurismo;
+          ", guiaTurismo=" + guiaTurismo.getNombre();
  }
 
  public boolean compararId(int id){ return  id==this.id;}
