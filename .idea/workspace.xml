@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Ej1 terminado">
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Agencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Compra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Excursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/GuiaTurismo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Hospedaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/MedioDeTransporte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/PaqueteTurismo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/FiguraDosDimensiones.java" afterDir="false" />
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Haciendo Ej2">
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/TipoMedio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/Figura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Circulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Cuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Cuadrado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Rectangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/dosDimensiones/Triangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/FiguraTresDimensiones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/figurasGeometricas/tresDimensiones/FiguraTresDimensiones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Agencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Agencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Compra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Excursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Excursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/GuiaTurismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/GuiaTurismo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/MedioDeTransporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/MedioDeTransporte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/PaqueteTurismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/PaqueteTurismo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -94,7 +87,8 @@
       <workItem from="1695170389398" duration="564000" />
       <workItem from="1695184492277" duration="3375000" />
       <workItem from="1695236388727" duration="87000" />
-      <workItem from="1695242017662" duration="2482000" />
+      <workItem from="1695242017662" duration="2657000" />
+      <workItem from="1695322773173" duration="4215000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -176,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695103703454</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Haciendo Ej2">
+      <option name="closed" value="true" />
+      <created>1695249428847</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695249428847</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +201,7 @@
     <MESSAGE value="Inicio ej1" />
     <MESSAGE value="ej1 casi terminado" />
     <MESSAGE value="Ej1 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ej1 terminado" />
+    <MESSAGE value="Haciendo Ej2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Haciendo Ej2" />
   </component>
 </project>

@@ -26,4 +26,10 @@ public class Cliente {
     }
 
 
+    @Override
+    public String toString() {
+        return getId()+" "+getNombre();
+    }
+
+    public boolean compararId(int id){ return  id==this.id;}
 }

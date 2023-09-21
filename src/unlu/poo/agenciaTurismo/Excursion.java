@@ -20,4 +20,9 @@ public class Excursion {
     public boolean equals(Excursion exc) {
         return exc.getNombre().equals(nombre);
     }
+
+    @Override
+    public String toString() {
+        return nombre;
+    }
 }

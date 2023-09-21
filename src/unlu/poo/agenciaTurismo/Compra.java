@@ -13,4 +13,9 @@ public class Compra {
     public String getDestino(){
         return paquete.getDestino();
     }
+
+    @Override
+    public String toString() {
+        return "Cliente:  "+cliente+"\n"+"Paquete Turismo: "+paquete;
+    }
 }
