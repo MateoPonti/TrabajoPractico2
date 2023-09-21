@@ -52,6 +52,7 @@ public class Ejercicio2 {
         ag.agregarHospedaje("Perzon",TipoHospedaje.BUNGALO);
 
         ag.agregarMedioTransporte("Avions team", TipoMedio.AEREA);
+        ag.agregarMedioTransporte("Mns", TipoMedio.MARITIMA);
 
 
 
@@ -61,11 +62,14 @@ public class Ejercicio2 {
         //System.out.println(ag.mostrarHospedaje());
         //System.out.println(ag.mostrarMedios());
         ag.agregarPaqueteTurismo("New York","Avions team",TipoMedio.AEREA,listaExcursiones,"The Plaza Hotel",TipoHospedaje.HOTEL,"Daniel");
-
+        ag.agregarPaqueteTurismo("Londres","Mns",TipoMedio.MARITIMA,listaExcursiones,"The Plaza Hotel",TipoHospedaje.HOTEL,"Daniel");
 
         ag.agregarCompra(1,1);
-        ag.agregarCompra(1,1);
+        ag.agregarCompra(1,2);
+        ag.agregarCompra(3,2);
+        ag.agregarCompra(4,2);
         ag.agregarCompra(2,1);
+
 
         System.out.println(ag.mostrarCompras());
         System.out.println(ag.mostrarDestinoFavorito());

@@ -2,6 +2,6 @@ package unlu.poo.agenciaTurismo;
 
 public enum TipoMedio {
     AEREA,
-    MARITIMAS,
+    MARITIMA,
     TERRESTRE;
 }
