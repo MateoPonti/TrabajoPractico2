@@ -76,12 +76,12 @@ private int id;
  }
  @Override
  public String toString() {
-  return  "id Paquete turismo= "+id+
-          " Destino= "+ Destino+
-          ", medioTransporte=" + medioTransporte +
-          ", excursiones=" +"\n"+ mostrarExcursion() +
-          ", hospedaje=" + hospedaje +
-          ", guiaTurismo=" + guiaTurismo.getNombre();
+  return  "id Paquete turismo= "+id+"\n"+
+          " Destino= "+ Destino+"\n"+
+          " medioTransporte= " + medioTransporte +"\n"+
+          " excursiones= " +"\n"+ mostrarExcursion() +"\n"+
+          " hospedaje= " + hospedaje +"\n"+
+          " guiaTurismo= " + guiaTurismo.getNombre();
  }
 
  public boolean compararId(int id){ return  id==this.id;}

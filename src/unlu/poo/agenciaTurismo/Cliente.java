@@ -28,7 +28,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return getId()+" "+getNombre();
+        return "id= "+getId()+"  nombre= "+getNombre();
     }
 
     public boolean compararId(int id){ return  id==this.id;}

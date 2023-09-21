@@ -162,7 +162,7 @@ public class Agencia {
         StringBuilder paquetesTurismoStr= new StringBuilder();
         paquetesTurismoStr.append("Paquetes de Turismo: ").append("\n");
         for(PaqueteTurismo pqt: paqueteTurismo){
-            paquetesTurismoStr.append(pqt).append("\n");
+            paquetesTurismoStr.append(pqt).append("\n").append("\n").append("\n");
         }
         return paquetesTurismoStr.toString();
 
@@ -199,7 +199,7 @@ public class Agencia {
         StringBuilder comprasStr= new StringBuilder();
         comprasStr.append("Compras: ").append("\n");
         for(Compra cp: compras){
-            comprasStr.append(cp).append("\n");
+            comprasStr.append(cp).append("\n").append("\n").append("\n");
         }
         return comprasStr.toString();
     }

@@ -62,8 +62,13 @@ public class Ejercicio2 {
         //System.out.println(ag.mostrarMedios());
         ag.agregarPaqueteTurismo("New York","Avions team",TipoMedio.AEREA,listaExcursiones,"The Plaza Hotel",TipoHospedaje.HOTEL,"Daniel");
 
-        System.out.println(ag.mostrarPaquetesDeTurismo());
 
+        ag.agregarCompra(1,1);
+        ag.agregarCompra(1,1);
+        ag.agregarCompra(2,1);
+
+        System.out.println(ag.mostrarCompras());
+        System.out.println(ag.mostrarDestinoFavorito());
 
 
         }

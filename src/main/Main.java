@@ -25,7 +25,7 @@ public class Main {
                 case ("0") -> bucle = false;
                 case ("1") -> new Ejercicio1();
                 case ("2") -> new Ejercicio2();
-             2   case ("3") -> new Ejercicio3();
+                case ("3") -> new Ejercicio3();
                 case ("4") -> new Ejercicio4();
                 case ("5") -> new Ejercicio5();
                 case ("6") -> new Ejercicio6();
