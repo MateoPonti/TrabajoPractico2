@@ -27,4 +27,12 @@ public class Clase {
         return participantesClase.size();
     }
 
+    public String listaParticipantes(){
+        StringBuilder participantesClase= new StringBuilder();
+        for(Alumno a:this.participantesClase){
+            participantesClase.append(a.toString()).append("\n");
+        }
+        return participantesClase.toString();
+
+    }
 }

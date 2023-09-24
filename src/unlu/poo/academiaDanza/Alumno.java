@@ -30,4 +30,9 @@ public class Alumno {
     public boolean compararDni(String dni){
         return getDNI().equals(dni);
     }
+
+    @Override
+    public String toString() {
+        return "nombre='" + nombre + '\'' + ", DNI='" + DNI ;
+    }
 }

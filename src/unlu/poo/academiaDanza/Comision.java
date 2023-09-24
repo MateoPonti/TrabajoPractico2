@@ -70,4 +70,20 @@ public class Comision {
     public void setNivel(Nivel nivel) {
         this.nivel = nivel;
     }
+
+
+    @Override
+    public String toString() {
+        return "Comision de la disciplina"+getDisciplina().toString()+" del nivel "+ getNivel().toString()+ "de los dias "+getDia()+" en el horario "+getHorario();
+    }
+
+    public String obtenerParticipacionMensual(){
+        String participacionComision=toString()+"\n";
+        int cantPartClases=0;
+        for (Clase c:clases){
+            participacionComision= participacionComision+"Clase de la Fecha : "+c.getFechaClase().toString()+"\n"+"Lista de Participantes: "+"\n"+c.listaParticipantes()+"\n";
+            cantPartClases=cantPartClases+c.cantidadParticipantes();
+        }
+        return participacionComision+"\n"+"Total de Participantes de la comision en el mes: "+cantPartClases;
+    };
 }

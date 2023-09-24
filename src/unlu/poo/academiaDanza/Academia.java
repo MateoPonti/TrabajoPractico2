@@ -20,7 +20,11 @@ public class Academia {
     }
 
     public String calcularInformeParticipantesProfesor(String DNIProfesor){
-        ;
+        Profesor p=buscarProfesorPorDNI(DNIProfesor);
+        if (p==null){
+            return p.mostrarParticipacionesMes();
+        };
+        return "No existe un Profesor con ese DNI";
     }
 
     private Profesor buscarProfesorPorDNI(String DNI){
@@ -36,4 +40,6 @@ public class Academia {
         }
         return null;
     }
+
+
 }

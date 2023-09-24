@@ -39,4 +39,12 @@ public class Profesor {
         return getDNI().equals(dni);
     }
 
+    public String mostrarParticipacionesMes(){
+        String participacionComision="";
+        for (Comision c:comisionesDadas){
+            participacionComision= participacionComision+c.obtenerParticipacionMensual()+"\n";
+        }
+        return participacionComision;
+    };
+
 }
