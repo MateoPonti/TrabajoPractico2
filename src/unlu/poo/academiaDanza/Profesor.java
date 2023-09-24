@@ -1,5 +1,6 @@
 package unlu.poo.academiaDanza;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Profesor {
@@ -12,6 +13,7 @@ public class Profesor {
     public Profesor(String nombre, String DNI) {
         this.nombre = nombre;
         this.DNI = DNI;
+        comisionesDadas=new ArrayList<>();
     }
 
 
@@ -40,11 +42,16 @@ public class Profesor {
     }
 
     public String mostrarParticipacionesMes(){
-        String participacionComision="";
+        StringBuilder participacionComision= new StringBuilder("Las asistencias del profesor en las clases de los alumnos en el mes de " + LocalDate.now().getMonth() + " de éste año:" + "\n");
         for (Comision c:comisionesDadas){
-            participacionComision= participacionComision+c.obtenerParticipacionMensual()+"\n";
+            participacionComision.append(c.obtenerParticipacionMensual()).append("\n");
         }
-        return participacionComision;
+        return participacionComision.toString();
     };
+
+    @Override
+    public String toString() {
+        return "nombre='" + nombre + '\'' + ", DNI='" + DNI ;
+    }
 
 }

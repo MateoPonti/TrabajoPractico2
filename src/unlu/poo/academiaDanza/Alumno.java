@@ -31,6 +31,10 @@ public class Alumno {
         return getDNI().equals(dni);
     }
 
+    public boolean compararDni(Alumno al2){
+        return al2.compararDni(getDNI());
+    }
+
     @Override
     public String toString() {
         return "nombre='" + nombre + '\'' + ", DNI='" + DNI ;

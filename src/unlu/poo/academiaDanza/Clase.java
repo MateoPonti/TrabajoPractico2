@@ -10,6 +10,11 @@ public class Clase {
     private LocalDate fechaClase;
 
 
+    public Clase(LocalDate fechaClase) {
+        this.fechaClase = fechaClase;
+        participantesClase=new ArrayList<>();
+    }
+
     public LocalDate getFechaClase() {
         return fechaClase;
     }
@@ -21,7 +26,9 @@ public class Clase {
 
 
     public void agregarParticipante(Alumno alumno){
+        if (!buscarParticipante(alumno)){
         participantesClase.add(alumno);
+        }
     }
     public int cantidadParticipantes(){
         return participantesClase.size();
@@ -34,5 +41,20 @@ public class Clase {
         }
         return participantesClase.toString();
 
+    }
+
+    public boolean mismoMesAño(LocalDate fecha){
+        return fecha.getYear()==getFechaClase().getYear() && fecha.getMonth()==getFechaClase().getMonth();
+    }
+
+    public boolean mismoDiaAñoMes(LocalDate fecha){
+        return fecha==fechaClase;
+    }
+
+    private boolean buscarParticipante(Alumno al){
+        for (Alumno a:participantesClase){
+            if (a.compararDni(al)){return true;}
+        }
+        return false;
     }
 }

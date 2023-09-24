@@ -1,5 +1,6 @@
 package unlu.poo.academiaDanza;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.PrimitiveIterator;
 
@@ -22,6 +23,7 @@ public class Comision {
         this.dia = dia;
         this.horario = horario;
         this.nivel = nivel;
+        clases=new ArrayList<>();
         numCom=numComisiones;
         numComisiones++;
     }
@@ -30,8 +32,10 @@ public class Comision {
         return profesorACargo;
     }
 
-    public void setProfesorACargo(Profesor profesorACargo) {
+    public boolean setProfesorACargo(Profesor profesorACargo) {
         this.profesorACargo = profesorACargo;
+        profesorACargo.agregarComision(this);
+        return true;
     }
 
     public boolean compararCom(int id) {
@@ -74,16 +78,48 @@ public class Comision {
 
     @Override
     public String toString() {
-        return "Comision de la disciplina"+getDisciplina().toString()+" del nivel "+ getNivel().toString()+ "de los dias "+getDia()+" en el horario "+getHorario();
+        return "numero de comision "+numCom+", Comision de la disciplina "+getDisciplina().toString()+" del nivel "+ getNivel().toString()+ " de los dias "+getDia()+" en el horario "+getHorario();
     }
 
     public String obtenerParticipacionMensual(){
-        String participacionComision=toString()+"\n";
+        StringBuilder participacionComision= new StringBuilder(toString() + "\n");
         int cantPartClases=0;
+        LocalDate fechaHoy=LocalDate.now();
         for (Clase c:clases){
-            participacionComision= participacionComision+"Clase de la Fecha : "+c.getFechaClase().toString()+"\n"+"Lista de Participantes: "+"\n"+c.listaParticipantes()+"\n";
-            cantPartClases=cantPartClases+c.cantidadParticipantes();
+            if (c.mismoMesAño(fechaHoy)){
+            participacionComision.append("Clase de la Fecha : ").append(c.getFechaClase().toString()).append("\n").append("Lista de Participantes: ").append("\n").append(c.listaParticipantes()).append("\n");
+            cantPartClases=cantPartClases+c.cantidadParticipantes(); }
+
         }
-        return participacionComision+"\n"+"Total de Participantes de la comision en el mes: "+cantPartClases;
+        return participacionComision.toString()+"\n"+"Total de Participantes de la comision en el mes: "+String.valueOf(cantPartClases);
     };
+
+
+    public boolean asistirAlumno(Alumno alumno, LocalDate fechaClase) {
+        Clase clase = buscarClase(fechaClase);
+        if (clase!=null){
+        clase.agregarParticipante(alumno);
+        return true;
+        }
+        return false;
+    }
+
+    private Clase buscarClase(LocalDate fecha){
+        for (Clase c:clases){
+            if (c.mismoDiaAñoMes(fecha)){
+                return c;
+            }
+        }
+        return null;
+    }
+
+    public boolean agregarClase(LocalDate fecha){
+        Clase c=buscarClase(fecha);
+        if (c==null){
+            clases.add(new Clase(fecha));
+            return true;
+        }
+
+        return false;
+    }
 }
