@@ -233,11 +233,14 @@ public class Agencia {
                             contador=1;
                             destino1=c.getDestino();
                         }}}}}
-        if (contador>contador2){return destino1;}
-        else {return destino2;}
-        }
-        return "No hay ninguna compra";
 
+        if (contador==contador2){return "Hay mas de un destino con igual cantidad de compras, ejemplo: "+ destino1 + " y "+destino2+ " con "+String.valueOf(contador)+".";}
+        else{
+        if (contador>contador2){return destino1+" se encuentra en "+String.valueOf(contador)+" compras.";}
+        else {return destino2+" se encuentra en "+String.valueOf(contador2)+" compras.";}
+        }
+    }
+        return "No hay ninguna compra";
     }
 
     private void ordenarComprasPorDestino(){

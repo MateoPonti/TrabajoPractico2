@@ -79,7 +79,7 @@ private int id;
   return  "id Paquete turismo= "+id+"\n"+
           " Destino= "+ Destino+"\n"+
           " medioTransporte= " + medioTransporte +"\n"+
-          " excursiones= " +"\n"+ mostrarExcursion() +"\n"+
+          " excursiones= " +"\n"+"  "+ mostrarExcursion() +"\n"+
           " hospedaje= " + hospedaje +"\n"+
           " guiaTurismo= " + guiaTurismo.getNombre();
  }
