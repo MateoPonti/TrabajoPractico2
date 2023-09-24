@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Ej2 Terminado">
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Academia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Clase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Comision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Disciplina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Nivel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Profesor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Inicio Ej 3">
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Academia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Academia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +83,7 @@
       <workItem from="1695322773173" duration="10937000" />
       <workItem from="1695338083171" duration="580000" />
       <workItem from="1695340423446" duration="702000" />
-      <workItem from="1695513258225" duration="5452000" />
+      <workItem from="1695513258225" duration="5508000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -228,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695516176252</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Inicio Ej 3">
+      <option name="closed" value="true" />
+      <created>1695522923170</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695522923170</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +255,7 @@
     <MESSAGE value="Haciendo Ej2" />
     <MESSAGE value="Casi Listo el ej2" />
     <MESSAGE value="Ej2 Terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ej2 Terminado" />
+    <MESSAGE value="Inicio Ej 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio Ej 3" />
   </component>
 </project>

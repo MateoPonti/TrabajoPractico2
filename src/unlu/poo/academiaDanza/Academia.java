@@ -11,7 +11,7 @@ public class Academia {
 
 
     public boolean setProfesorACargo(String nombre,String dni) {
-        if (buscarProfesorPorDnNI(dni)==null){
+        if (buscarProfesorPorDNI(dni)==null){
             this.profesores.add(new Profesor(nombre,dni));
             return true;
         };
