@@ -94,6 +94,17 @@ public class Comision {
         return participacionComision.toString()+"\n"+"Total de Participantes de la comision en el mes: "+String.valueOf(cantPartClases);
     };
 
+    public int cantidadParticipacionMensual(){
+        int cantPartClases=0;
+        LocalDate fechaHoy=LocalDate.now();
+        for (Clase c:clases){
+            if (c.mismoMesAño(fechaHoy)){
+                cantPartClases=cantPartClases+c.cantidadParticipantes(); }
+        }
+        return cantPartClases;
+    };
+
+
 
     public boolean asistirAlumno(Alumno alumno, LocalDate fechaClase) {
         Clase clase = buscarClase(fechaClase);

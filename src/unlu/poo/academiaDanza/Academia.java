@@ -1,7 +1,10 @@
 package unlu.poo.academiaDanza;
 
+import unlu.poo.agenciaTurismo.Compra;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Academia {
     private ArrayList<Profesor> profesores;
@@ -115,5 +118,66 @@ public class Academia {
         return null;
     }
 
+
+    public String disciplinaConMasClases(){
+        if (!comisiones.isEmpty()){
+        ordenarComisionPorDisciplina();
+        Disciplina dis1=comisiones.get(0).getDisciplina();
+        Disciplina dis2=null;
+        int contador=0;
+        int contador2=0;
+        for(Comision c: comisiones){
+            if (c.getDisciplina()==dis1){ // comprueba si es el primer destino
+                contador=contador+c.cantidadParticipacionMensual();
+                }
+            else {
+                if (dis2 == null){   // comprueba que haya un segundo destino sino lo asigna
+                        dis2=c.getDisciplina();
+                        contador2=c.cantidadParticipacionMensual();
+                }
+                else {
+                        if (c.getDisciplina()==dis2){ // si es el segundo suma el contador
+                            contador2=contador2+c.cantidadParticipacionMensual();
+                        }
+                        else {
+                            if (contador>contador2){ // si no es ni el primero ni el segundo debe saber cual de los 2 debe sacar
+                                contador2=c.cantidadParticipacionMensual();
+                                dis2=c.getDisciplina();
+                            }
+                            else {
+                                contador=c.cantidadParticipacionMensual();
+                                dis1=c.getDisciplina();
+                            }}}}}
+            if (contador==0 && contador2==0){return  "No hubo clases en ninguna comision en este mes";}
+            if (contador==contador2){return "Hay mas de una disciplina con las mismas clases en el mes de este año: "+ dis1.toString() + " y "+dis2.toString()+ " con "+String.valueOf(contador)+".";}
+            else{
+                if (contador>contador2){return "Disciplina "+dis1.toString()+" se encuentra con "+String.valueOf(contador)+" clases mensuales de este año.";}
+                else {return "Disciplina "+dis2+" se encuentra con "+String.valueOf(contador2)+"  clases mensuales de este año.";}
+            }
+        }
+        return "No hay comisiones";
+    }
+
+    private void ordenarComisionPorDisciplina(){
+        boolean ordenado=false;
+        int i;
+        Comision com1;
+        Comision com2;
+        while (!ordenado){
+            i=1;
+            ordenado=true;
+            while (i<comisiones.size()){
+                if ( comisiones.get(i).getDisciplina().ordinal()>comisiones.get(i-1).getDisciplina().ordinal()){
+                    com1=comisiones.get(i);
+                    com2=comisiones.get(i-1);
+                    comisiones.set(i,com2);
+                    comisiones.set(i-1,com1);
+                }
+                i++;
+            }
+
+        }
+
+    }
 
 }

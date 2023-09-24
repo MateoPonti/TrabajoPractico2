@@ -37,6 +37,7 @@ public class Ejercicio3 {
         a.asistirAlumno("32123",fechaClase1,1);
         a.asistirAlumno("123231",fechaClase2,1);
         System.out.println(a.calcularInformeParticipantesProfesor("3213"));
-
+        System.out.println();
+        System.out.println(a.disciplinaConMasClases());
     }
 }
