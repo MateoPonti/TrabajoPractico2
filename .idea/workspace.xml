@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Terminado el punto 3 , debe validarse mas clases">
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/CuentaCredito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/CuentaNormal.java" afterDir="false" />
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Terminado el punto 3">
+      <change afterPath="$PROJECT_DIR$/UML y Respuestas a Preguntas/Ej4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Diario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Ejemplar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Prestamo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Publicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/PublicacionPrestadas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/PublicacionSinPrestar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Revista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Socio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Tesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Academia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Academia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Comision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Comision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +65,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mateo\IdeaProjects\TrabajoPractico2\UML y Respuestas a Preguntas" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -93,7 +104,8 @@
       <workItem from="1695513258225" duration="6600000" />
       <workItem from="1695584992553" duration="4662000" />
       <workItem from="1695590805024" duration="1456000" />
-      <workItem from="1695597200261" duration="2125000" />
+      <workItem from="1695597200261" duration="2758000" />
+      <workItem from="1695667855741" duration="2586000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -271,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695592109895</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Terminado el punto 3">
+      <option name="closed" value="true" />
+      <created>1695605360522</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1695605360522</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +321,7 @@
     <MESSAGE value="Falta Poco del Ej 3" />
     <MESSAGE value="Casi terminado el punto 3 debe comprobrse luego" />
     <MESSAGE value="Terminado el punto 3 , debe validarse mas clases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminado el punto 3 , debe validarse mas clases" />
+    <MESSAGE value="Terminado el punto 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminado el punto 3" />
   </component>
 </project>

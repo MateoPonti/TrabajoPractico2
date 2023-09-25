@@ -1,0 +1,3 @@
+Cosas a corregir del modelo:
+    * los Atributos de la clase Cuenta deberian estar en privado para mantener el encapsulamiento
+    *
