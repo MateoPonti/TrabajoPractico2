@@ -149,10 +149,10 @@ public class Academia {
                                 dis1=c.getDisciplina();
                             }}}}}
             if (contador==0 && contador2==0){return  "No hubo clases en ninguna comision en este mes";}
-            if (contador==contador2){return "Hay mas de una disciplina con las mismas clases en el mes de este año: "+ dis1.toString() + " y "+dis2.toString()+ " con "+String.valueOf(contador)+".";}
+            if (contador==contador2){return "Hay mas de una disciplina favorita con las mismas clases en el mes de este año: "+ dis1.toString() + " y "+dis2.toString()+ " con "+String.valueOf(contador)+".";}
             else{
-                if (contador>contador2){return "Disciplina "+dis1.toString()+" se encuentra con "+String.valueOf(contador)+" clases mensuales de este año.";}
-                else {return "Disciplina "+dis2+" se encuentra con "+String.valueOf(contador2)+"  clases mensuales de este año.";}
+                if (contador>contador2){return "Disciplina favorita: "+dis1.toString()+", se encuentra con "+String.valueOf(contador)+" clases mensuales de este año.";}
+                else {return "Disciplina favorita: "+dis2+", se encuentra con "+String.valueOf(contador2)+"  clases mensuales de este año.";}
             }
         }
         return "No hay comisiones";

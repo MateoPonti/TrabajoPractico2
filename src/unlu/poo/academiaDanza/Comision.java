@@ -91,7 +91,7 @@ public class Comision {
             cantPartClases=cantPartClases+c.cantidadParticipantes(); }
 
         }
-        return participacionComision.toString()+"\n"+"Total de Participantes de la comision en el mes: "+String.valueOf(cantPartClases);
+        return participacionComision.toString()+"Total de Participantes de la comision "+String.valueOf(numCom)+" en el mes: "+String.valueOf(cantPartClases)+"\n"+"\n"+"\n";
     };
 
     public int cantidadParticipacionMensual(){

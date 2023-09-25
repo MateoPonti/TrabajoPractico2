@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Casi terminado el punto 3 debe comprobrse luego">
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Terminado el punto 3 , debe validarse mas clases">
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/CuentaCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/CuentaNormal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Academia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Academia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Comision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/academiaDanza/Comision.java" afterDir="false" />
@@ -18,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,7 +92,8 @@
       <workItem from="1695340423446" duration="702000" />
       <workItem from="1695513258225" duration="6600000" />
       <workItem from="1695584992553" duration="4662000" />
-      <workItem from="1695590805024" duration="1254000" />
+      <workItem from="1695590805024" duration="1456000" />
+      <workItem from="1695597200261" duration="2125000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -259,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695589660324</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Terminado el punto 3 , debe validarse mas clases">
+      <option name="closed" value="true" />
+      <created>1695592109895</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1695592109895</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +300,7 @@
     <MESSAGE value="Inicio Ej 3" />
     <MESSAGE value="Falta Poco del Ej 3" />
     <MESSAGE value="Casi terminado el punto 3 debe comprobrse luego" />
-    <option name="LAST_COMMIT_MESSAGE" value="Casi terminado el punto 3 debe comprobrse luego" />
+    <MESSAGE value="Terminado el punto 3 , debe validarse mas clases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminado el punto 3 , debe validarse mas clases" />
   </component>
 </project>
