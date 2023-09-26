@@ -30,4 +30,7 @@ public class Socio {
     public String toString() {
         return "id= "+String.valueOf(numSocio)+" nombre= "+nombre;
     }
+    public boolean compararId(int num){
+        return  numSocio==num;
+    }
 }

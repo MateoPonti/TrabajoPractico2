@@ -2,18 +2,17 @@ package unlu.poo.publicacion;
 
 public class Prestamo {
 
-   private String nombreSocio;
-   private int numSocio;
+   private Socio socio;
 
    private int numEjemplar;
    private String estadoEjemplar;
    private String libro;
 
     public Prestamo(Socio socio,Ejemplar ejemplar) {
-        nombreSocio= socio.getNombre();
-        numSocio= socio.getNumSocio();
+        this.socio=socio;
         numEjemplar= ejemplar.getNumEjemplar();
         estadoEjemplar=ejemplar.getEstado();
+        libro=ejemplar.getLibro();
 
     }
 }

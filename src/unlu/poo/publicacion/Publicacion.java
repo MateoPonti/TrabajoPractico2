@@ -3,13 +3,13 @@ package unlu.poo.publicacion;
 public abstract  class Publicacion {
    private String nombre;
    private String editor;
-   private String telefono;
+   private String telefonoProv;
 
 
     public Publicacion(String nombre, String editor, String telefono) {
         this.nombre = nombre;
         this.editor = editor;
-        this.telefono = telefono;
+        this.telefonoProv = telefono;
     }
 
     public String getNombre() {
@@ -29,10 +29,10 @@ public abstract  class Publicacion {
     }
 
     public String getTelefono() {
-        return telefono;
+        return telefonoProv;
     }
 
     public void setTelefono(String telefono) {
-        this.telefono = telefono;
+        this.telefonoProv = telefono;
     }
 }
