@@ -57,7 +57,9 @@ public class Ejemplar {
         return true;
     }
 
-    public void devolver() {
-        this.prestado=false;
+    public boolean devolver() {
+        if (!prestado){return  false;} // no devuelve algo que no esta prestado
+        prestado=false;
+        return true;
     }
 }

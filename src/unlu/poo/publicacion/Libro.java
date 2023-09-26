@@ -36,9 +36,7 @@ public class Libro extends PublicacionPrestadas{
 
     public boolean devolver(int num) {
         Ejemplar e=buscarEjemplar(num);
-        if (e==null){return false;}
-        e.devolver();
-        return true;
+        return (e!=null) && e.devolver();
     }
 
     private Ejemplar buscarEjemplar(int num) {

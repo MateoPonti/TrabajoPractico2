@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Haciendo Ej8">
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Ej 8 casi listo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Biblioteca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Ejemplar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Ejemplar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Prestamo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Prestamo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Publicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Publicacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/PublicacionPrestadas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/PublicacionPrestadas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Revista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Revista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Socio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Socio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Tesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Tesis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +100,7 @@
       <workItem from="1695597200261" duration="2758000" />
       <workItem from="1695667855741" duration="3052000" />
       <workItem from="1695687768876" duration="3106000" />
-      <workItem from="1695757379283" duration="6240000" />
+      <workItem from="1695757379283" duration="8384000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -307,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695691771368</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Ej 8 casi listo">
+      <option name="closed" value="true" />
+      <created>1695764311928</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1695764311928</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +342,7 @@
     <MESSAGE value="Terminado el punto 3 , debe validarse mas clases" />
     <MESSAGE value="Terminado el punto 3" />
     <MESSAGE value="Haciendo Ej8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Haciendo Ej8" />
+    <MESSAGE value="Ej 8 casi listo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ej 8 casi listo" />
   </component>
 </project>

@@ -11,8 +11,12 @@ public class Ejercicio8 {
         autores.add("Juan Del Mercionero");
         autores.add("Maria Paz");
 
+        System.out.println("Clase biblioteca solo tiene lo esencial para poder mostrar prestamos en libros y revistas como ejemplo");
+
         b.agregarLibro("Par","juaniser","21323",3,"321",autores);
         b.agregarSocio("Juan");
+
+        System.out.println(b.mostrarSocios());
 
         System.out.println(b.mostrarLibros());
 
@@ -23,6 +27,15 @@ public class Ejercicio8 {
 
         System.out.println();
         System.out.println(b.mostrarLibros());
+
+
+        System.out.println("----------------------------------------------------------------------------------");
+        b.agregarRevista("RevistaPars","3","matres","312321",32,"31232");
+        System.out.println(b.mostrarRevistas());
+        b.prestarRevista(1,30);
+        System.out.println();
+        System.out.println("presto 30 revistas");
+        System.out.println(b.mostrarRevistas());
 
     }
 }
