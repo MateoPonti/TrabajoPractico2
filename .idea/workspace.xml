@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Terminado el punto 3">
-      <change afterPath="$PROJECT_DIR$/UML y Respuestas a Preguntas/Ej4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Biblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Diario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Ejemplar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Prestamo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Publicacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/PublicacionPrestadas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/PublicacionSinPrestar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Revista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Socio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Tesis.java" afterDir="false" />
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Haciendo Ej8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Ejemplar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Ejemplar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Prestamo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Prestamo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/PublicacionPrestadas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/PublicacionPrestadas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Revista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Revista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Socio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Socio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +99,8 @@
       <workItem from="1695584992553" duration="4662000" />
       <workItem from="1695590805024" duration="1456000" />
       <workItem from="1695597200261" duration="2758000" />
-      <workItem from="1695667855741" duration="2586000" />
+      <workItem from="1695667855741" duration="3052000" />
+      <workItem from="1695687768876" duration="2688000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -291,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695605360522</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Haciendo Ej8">
+      <option name="closed" value="true" />
+      <created>1695671693565</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1695671693565</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +325,7 @@
     <MESSAGE value="Casi terminado el punto 3 debe comprobrse luego" />
     <MESSAGE value="Terminado el punto 3 , debe validarse mas clases" />
     <MESSAGE value="Terminado el punto 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminado el punto 3" />
+    <MESSAGE value="Haciendo Ej8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Haciendo Ej8" />
   </component>
 </project>

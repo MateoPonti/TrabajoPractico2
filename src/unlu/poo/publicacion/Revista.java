@@ -4,14 +4,16 @@ public class Revista extends PublicacionPrestadas{
     private String ISNN;
     private String numPublicacion;
 
-    public Revista(String nombre, String editor, String telefono) {
-        super(nombre, editor, telefono);
+    private int cantEjemplares
+    public Revista(String nombre, String editor, String telefono,int cant) {
+        super(nombre, editor, telefono,cant);
     }
 
-    @Override
-    public void Prestar() {
-
+    public boolean prestar() {
+        return false;
     }
+
+
 
     @Override
     public int calcularCantidadPrestamos() {

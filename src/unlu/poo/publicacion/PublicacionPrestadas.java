@@ -6,10 +6,12 @@ public abstract  class PublicacionPrestadas extends Publicacion {
 
     public abstract int calcularCantidadPrestamos();
     private String AñoPublicacion;
+    private int cantEjemplares;
 
 
-    public PublicacionPrestadas(String nombre, String editor, String telefono) {
+    public PublicacionPrestadas(String nombre, String editor, String telefono,int cant) {
         super(nombre, editor, telefono);
+        cantEjemplares=cant;
     }
     public String getAñoPublicacion() {
         return AñoPublicacion;
@@ -19,5 +21,6 @@ public abstract  class PublicacionPrestadas extends Publicacion {
         AñoPublicacion = añoPublicacion;
     }
 
-    public abstract void Prestar();
+
+
 }
