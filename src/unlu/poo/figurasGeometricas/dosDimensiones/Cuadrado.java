@@ -23,4 +23,11 @@ public class Cuadrado extends FiguraDosDimensiones {
     public double getLado() {
         return lado;
     }
+
+    @Override
+    public String toString() {
+        return "Cuadrado{" +
+                "lado=" + lado +
+                '}';
+    }
 }

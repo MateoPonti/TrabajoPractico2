@@ -19,4 +19,11 @@ public class Circulo  extends FiguraDosDimensiones {
     public void setRadio(double radio) {
         this.radio = radio;
     }
+
+    @Override
+    public String toString() {
+        return "Circulo{" +
+                "radio=" + radio +
+                '}';
+    }
 }

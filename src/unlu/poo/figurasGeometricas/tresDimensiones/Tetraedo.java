@@ -27,4 +27,11 @@ public class Tetraedo extends FiguraTresDimensiones{
     public double getVolumen() {
         return Math.pow(arista,3)*(Math.sqrt(2)/12);
     }
+
+    @Override
+    public String toString() {
+        return "Tetraedo{" +
+                "arista=" + arista +
+                '}';
+    }
 }

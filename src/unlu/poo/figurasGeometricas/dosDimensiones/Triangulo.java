@@ -1,3 +1,5 @@
+package unlu.poo.figurasGeometricas.dosDimensiones;
+
 import unlu.poo.figurasGeometricas.dosDimensiones.FiguraDosDimensiones;
 
 public class Triangulo extends FiguraDosDimensiones {
@@ -31,5 +33,11 @@ public class Triangulo extends FiguraDosDimensiones {
         this.altura = altura;
     }
 
-
+    @Override
+    public String toString() {
+        return "Triangulo{" +
+                "base=" + base +
+                ", altura=" + altura +
+                '}';
+    }
 }

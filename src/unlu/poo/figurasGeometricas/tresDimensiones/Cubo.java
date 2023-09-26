@@ -27,4 +27,10 @@ public class Cubo extends FiguraTresDimensiones{
     }
 
 
+    @Override
+    public String toString() {
+        return "Cubo{" +
+                "arista=" + arista +
+                '}';
+    }
 }

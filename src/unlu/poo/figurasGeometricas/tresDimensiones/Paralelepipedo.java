@@ -47,4 +47,12 @@ public class Paralelepipedo extends FiguraTresDimensiones{
         return arista1 * arista2 * arista3;
     }
 
+    @Override
+    public String toString() {
+        return "Paralelepipedo{" +
+                "arista1=" + arista1 +
+                ", arista2=" + arista2 +
+                ", arista3=" + arista3 +
+                '}';
+    }
 }

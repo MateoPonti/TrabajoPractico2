@@ -26,4 +26,11 @@ public class Esfera extends FiguraTresDimensiones{
     public double getVolumen() {
         return ((double) 4 /3) * Math.PI * Math.pow(radio,3);
     }
+
+    @Override
+    public String toString() {
+        return "Esfera{" +
+                "radio=" + radio +
+                '}';
+    }
 }
