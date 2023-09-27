@@ -38,11 +38,11 @@ public class EmpleadoComision extends Empleado{
 
     @Override
     public double calcularSueldo() {
-        return (porcentaje/100)*precioVentas;
+        return ((porcentaje/100)*precioVentas)+super.calcularSueldo();
     }
 
     @Override
     public double getSueldoCumple() {
-        return 0;
+        return super.getSueldoCumple()+0.5*precioVentas;
     }
 }

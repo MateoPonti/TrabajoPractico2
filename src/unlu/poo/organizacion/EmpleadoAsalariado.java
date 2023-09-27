@@ -12,12 +12,12 @@ public class EmpleadoAsalariado extends Empleado{
     }
 
     public double calcularSueldo() {
-        return sumaFija;
+        return sumaFija+super.calcularSueldo();
     }
 
     @Override
     public double getSueldoCumple() {
-        return 0;
+        return super.getSueldoCumple()+2000;
     }
 
 }

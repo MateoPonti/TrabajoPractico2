@@ -25,4 +25,9 @@ public class EmpleadoComisionBase extends EmpleadoComision{
     public double calcularSueldo() {
         return salarioBase+super.calcularSueldo();
     }
+
+    @Override
+    public double getSueldoCumple() {
+        return super.getSueldoCumple()+1000;
+    }
 }

@@ -35,14 +35,19 @@ public abstract class  Empleado {
     }
 
 
-    public abstract double calcularSueldo();
+    public double calcularSueldo(){
+        if (isCumple()){return getSueldoCumple()};
+        return 0;
+    };
 
 
     public boolean isCumple(){
         LocalDate fecha= LocalDate.now();
         return fecha.getMonth()==fechaCumple.getMonth();
     };
-    public abstract double getSueldoCumple();
+    public double getSueldoCumple(){
+        return 2000;
+    };
 
     public boolean compararId(int num){
         return id==num;
