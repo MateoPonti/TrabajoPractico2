@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="haciendo Ej10">
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Ej 10 terminado , falta probarlo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/organizacion/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/organizacion/Empleado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/organizacion/EmpleadoAsalariado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/organizacion/EmpleadoAsalariado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/organizacion/EmpleadoComision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/organizacion/EmpleadoComision.java" afterDir="false" />
@@ -103,7 +104,8 @@
       <workItem from="1695667855741" duration="3052000" />
       <workItem from="1695687768876" duration="3106000" />
       <workItem from="1695757379283" duration="10762000" />
-      <workItem from="1695793368253" duration="2975000" />
+      <workItem from="1695793368253" duration="3035000" />
+      <workItem from="1695840596817" duration="1956000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -337,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695796853371</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Ej 10 terminado , falta probarlo">
+      <option name="closed" value="true" />
+      <created>1695797479834</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1695797479834</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +383,7 @@
     <MESSAGE value="Ej 8 listo , debo comprobar si falta alguna cosa" />
     <MESSAGE value="Ej 9 Listo , falta UML" />
     <MESSAGE value="haciendo Ej10" />
-    <option name="LAST_COMMIT_MESSAGE" value="haciendo Ej10" />
+    <MESSAGE value="Ej 10 terminado , falta probarlo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ej 10 terminado , falta probarlo" />
   </component>
 </project>

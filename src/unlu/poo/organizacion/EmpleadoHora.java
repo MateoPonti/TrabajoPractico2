@@ -43,5 +43,12 @@ public class EmpleadoHora extends Empleado{
        return salario+super.calcularSueldo();
        }
 
-
+    @Override
+    public String toString() {
+        return "EmpleadoHora{" +
+                super.toString()+
+                ", cantHoras=" + cantHoras +
+                ", precioHora=" + precioHora +
+                '}';
+    }
 }

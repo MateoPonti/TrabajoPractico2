@@ -20,4 +20,11 @@ public class EmpleadoAsalariado extends Empleado{
         return super.getSueldoCumple()+2000;
     }
 
+    @Override
+    public String toString() {
+        return "EmpleadoAsalariado{" +
+                super.toString()+
+                ", sumaFija=" + sumaFija +
+                '}';
+    }
 }

@@ -36,7 +36,7 @@ public abstract class  Empleado {
 
 
     public double calcularSueldo(){
-        if (isCumple()){return getSueldoCumple()};
+        if (isCumple()){return getSueldoCumple();};
         return 0;
     };
 
@@ -53,4 +53,13 @@ public abstract class  Empleado {
         return id==num;
     }
 
+    @Override
+    public String toString() {
+        return "fechaCumple=" + fechaCumple +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", cuit='" + cuit + '\'' +
+                ", id=" + id ;
+    }
 }

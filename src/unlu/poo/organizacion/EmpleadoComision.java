@@ -45,4 +45,13 @@ public class EmpleadoComision extends Empleado{
     public double getSueldoCumple() {
         return super.getSueldoCumple()+0.5*precioVentas;
     }
+
+    @Override
+    public String toString() {
+        return "EmpleadoComision{" +
+                super.toString()+
+                ", precioVentas=" + precioVentas +
+                ", porcentaje=" + porcentaje +
+                '}';
+    }
 }

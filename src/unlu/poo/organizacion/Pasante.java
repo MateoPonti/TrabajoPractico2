@@ -16,4 +16,9 @@ public class Pasante extends Empleado{
     public double getSueldoCumple() {
         return 0;
     }
+
+    @Override
+    public String toString() {
+        return  "Pasante: "+"\n"+super.toString();
+    }
 }

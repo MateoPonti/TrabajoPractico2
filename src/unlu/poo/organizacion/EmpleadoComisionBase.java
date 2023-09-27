@@ -30,4 +30,13 @@ public class EmpleadoComisionBase extends EmpleadoComision{
     public double getSueldoCumple() {
         return super.getSueldoCumple()+1000;
     }
+
+    @Override
+    public String toString() {
+        return "EmpleadoComisionBase{" +
+                "atributos de empleado comision:"+"\n"+
+                super.toString()+"\n"+"atributos de comision base:"+"\n"+
+                "salarioBase=" + salarioBase +
+                '}';
+    }
 }
