@@ -1,5 +1,7 @@
 package unlu.poo.renta;
 
+import java.util.concurrent.TransferQueue;
+
 public class Vehiculo {
     private String patente;
     private boolean alquilado;
@@ -20,12 +22,20 @@ public class Vehiculo {
         return alquilado;
     }
 
-    public void alquilar() {
-        this.alquilado = true;
+    public boolean alquilar(){
+        if (!alquilado) {
+            alquilado = true;
+            return true;
+        }
+        return false;
     }
 
-    public void devolver(){
-        this.alquilado = false;
+    public boolean devolver(){
+        if (alquilado) {
+            alquilado = false;
+            return true;
+        }
+        return false;
     }
 
 

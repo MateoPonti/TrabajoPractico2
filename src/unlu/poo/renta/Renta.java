@@ -1,7 +1,9 @@
 package unlu.poo.renta;
 
 
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Formatter;
 
 public class Renta {
     private ArrayList<Vehiculo> vehiculos;
@@ -77,6 +79,39 @@ public class Renta {
         return true;
     }
 
+    public boolean alquilar(int idC, int presupuesto, LocalDate fechaInicio){
+        Cliente c=buscarCliente(idC);
+        if (c==null){ return false;}
+        Presupuesto p=buscarPresupuesto(presupuesto);
+        if (p==null){ return false;}
+        if (!p.getVehiculo().alquilar()){ return false;}
+        c.agregarAlquiler(new Alquiler(fechaInicio,p,c));
+        return true;
+    }
+
+    public String mostrarAlquilerCliente(int idC){
+        Cliente c=buscarCliente(idC);
+        if (c==null){ return "No existe cliente";}
+        return c.mostrarAlquileres();
+    }
+
+    public String mostrarTotalAlquiler(){
+        double precio=0;
+        for (Cliente cliente : clientes) {
+         precio=precio+cliente.obtenerMontoAlquileres();
+        }
+        return "Precio total de todos los alquires generados: "+ String.valueOf(precio);
+
+    }
+
+
+
+
+    public boolean devolverAuto(String pat){
+        Vehiculo v= buscarVehiculo(pat);
+        return v!=null && v.devolver();
+    }
+
     public String mostrarPresupuestos(){
         StringBuilder mostrarPresupuestosStr= new StringBuilder();
         mostrarPresupuestosStr.append("Lista de Presupuestos").append("\n");
@@ -89,6 +124,13 @@ public class Renta {
     private Vehiculo buscarVehiculo(String pat){
         for(Vehiculo v:vehiculos){
             if (v.compararPatente(pat)){return v;}
+        }
+        return null;
+    }
+
+    private Presupuesto buscarPresupuesto(int id){
+        for(Presupuesto p:presupuestos){
+            if (p.compararId(id)){return p;}
         }
         return null;
     }

@@ -10,8 +10,13 @@ public class Flete extends Vehiculo{
 
 
     @Override
+    public double calcularAlquiler(int cantidadDias) {
+        return super.calcularAlquiler(cantidadDias)+600*pat;
+    }
+
+    @Override
     public double getPrecioBase() {
-        return super.getPrecioBase()+(patPrecio*600);
+        return super.getPrecioBase();
     }
 
     @Override
@@ -19,5 +24,6 @@ public class Flete extends Vehiculo{
         return "Flete{"+ super.toString()+
                 " pat=" + pat +
                 '}';
+
     }
 }

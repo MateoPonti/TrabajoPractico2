@@ -3,6 +3,8 @@ package unlu.poo.renta;
 public class AutoPasajero extends Vehiculo{
     private int cantidadAsientos;
 
+    private final int plazaFija=500;
+    private final int asientoPrecio=300;
     private boolean vip;
 
 
@@ -16,8 +18,8 @@ public class AutoPasajero extends Vehiculo{
 
     @Override
     public double getPrecioBase() {
-        double precio= super.getPrecioBase()+(cantidadAsientos*300);
-        if (vip){return precio+500;}
+        double precio= super.getPrecioBase()+(cantidadAsientos*asientoPrecio);
+        if (vip){return precio+plazaFija;}
         return precio;
     }
 

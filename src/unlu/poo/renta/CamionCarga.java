@@ -5,14 +5,22 @@ public class CamionCarga extends Vehiculo{
         super(patente);
     }
 
+    private final double precioFijo=100000;
+
+    private final int cantDiasFijos=30;
 
 
 
 
     @Override
     public double calcularAlquiler(int cantidadDias) {
-        if (cantidadDias>30){return 75000;}
-        return 100000;
+        if (cantidadDias>cantDiasFijos){return precioFijo+(getPrecioBase()*(cantidadDias-cantDiasFijos));}
+        return precioFijo;
+    }
+
+    @Override
+    public double getPrecioBase() {
+        return 75000;
     }
 
     @Override

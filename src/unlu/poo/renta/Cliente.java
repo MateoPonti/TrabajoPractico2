@@ -16,6 +16,27 @@ public class Cliente {
         idTotal++;
     }
 
+    public void agregarAlquiler(Alquiler alquiler){
+        this.alquileres.add(alquiler);
+    }
+
+    public String mostrarAlquileres(){
+        StringBuilder mostrarAlquileresStr= new StringBuilder();
+        mostrarAlquileresStr.append("Lista de Alquileres del cliente: ").append(String.valueOf(id)).append("\n");
+        for (Alquiler a:alquileres){
+            mostrarAlquileresStr.append(a).append("\n");
+        }
+        return mostrarAlquileresStr.toString();
+    }
+
+    public double obtenerMontoAlquileres(){
+        double monto=0;
+        for (Alquiler a:alquileres){
+           monto=monto+a.getMonto();
+        }
+        return monto;
+    }
+
     public boolean compararId(int num){return id==num;}
 
     public String getNombre() {

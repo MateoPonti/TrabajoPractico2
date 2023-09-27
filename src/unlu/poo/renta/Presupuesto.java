@@ -26,4 +26,23 @@ public class Presupuesto {
                 ", cantDias=" + cantDias +
                 '}';
     }
+    public boolean compararId(int id) {
+        return this.id==id;
+    }
+
+    public Vehiculo getVehiculo() {
+        return vehiculo;
+    }
+
+    public int getCantDias() {
+        return cantDias;
+    }
+
+    public double getMonto() {
+        return monto;
+    }
+
+    public int getId() {
+        return id;
+    }
 }
