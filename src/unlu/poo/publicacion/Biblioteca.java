@@ -9,7 +9,10 @@ public class Biblioteca {
     ArrayList<Diario> diarios;
     ArrayList<Tesis> tesis;
 
-
+    // Solo se implemento lo necesario para prestar una libro o una revista.
+    // se podria tener un array List de <Publicacion> en este ejemplo
+    // no fui por ese camino ya que me lo impediria a la hora de prestar un libro o revista(estos ambos difieren tambien en el argumento a pasar para prestar , uno pasas num ejemplar y otro cantidad) ,
+    // aunque a la hora de mostrar tranquilamente si se podria.
 
 
     public Biblioteca(){

@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Ej 10 terminado , falta probarlo">
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Ej 10 terminado">
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/renta/Alquiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/renta/AutoPasajero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/renta/CamionCarga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/renta/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/renta/Combi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/renta/Flete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/renta/Presupuesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/renta/Renta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/renta/Vehiculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/organizacion/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/organizacion/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/organizacion/EmpleadoAsalariado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/organizacion/EmpleadoAsalariado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/organizacion/EmpleadoComision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/organizacion/EmpleadoComision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/organizacion/EmpleadoComisionBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/organizacion/EmpleadoComisionBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/organizacion/EmpleadoHora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/organizacion/EmpleadoHora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/organizacion/Pasante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/organizacion/Pasante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/publicacion/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/publicacion/Biblioteca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +113,7 @@
       <workItem from="1695687768876" duration="3106000" />
       <workItem from="1695757379283" duration="10762000" />
       <workItem from="1695793368253" duration="3035000" />
-      <workItem from="1695840596817" duration="1956000" />
+      <workItem from="1695840596817" duration="9086000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -347,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695797479834</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Ej 10 terminado">
+      <option name="closed" value="true" />
+      <created>1695842659260</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1695842659260</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,6 +400,7 @@
     <MESSAGE value="Ej 9 Listo , falta UML" />
     <MESSAGE value="haciendo Ej10" />
     <MESSAGE value="Ej 10 terminado , falta probarlo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ej 10 terminado , falta probarlo" />
+    <MESSAGE value="Ej 10 terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ej 10 terminado" />
   </component>
 </project>
