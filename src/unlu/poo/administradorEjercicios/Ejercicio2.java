@@ -74,7 +74,7 @@ public class Ejercicio2 {
 
 
         System.out.println(ag.mostrarCompras());
-        System.out.println(ag.mostrarDestinoFavorito());
+        System.out.println("Destino favorito : "+ag.mostrarDestinoFavorito());
 
 
         }
