@@ -4,7 +4,7 @@ public abstract class Proveedor {
     private String nombre;
 
     public Proveedor(String nombre) {
-        this.nombre = nombre;
+        setNombre(nombre);
     }
 
     public abstract double calcularImporteBase();
@@ -16,7 +16,7 @@ public abstract class Proveedor {
     }
 
     public void setNombre(String nombre) {
-        this.nombre = nombre;
+        this.nombre = nombre.toLowerCase();
     }
 
 

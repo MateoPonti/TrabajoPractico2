@@ -3,7 +3,7 @@ package unlu.poo.agenciaTurismoEj14;
 public class Cliente {
     private String nombre;
     private int id;
-    private static int idTotal;
+    private static int idTotal=1;
 
     public Cliente(String nombre) {
         this.nombre = nombre;

@@ -48,7 +48,6 @@ public class Ejercicio14 {
         ag.agregarCompra(3,2);
         ag.agregarCompra(4,2);
         ag.agregarCompra(2,1);
-        ag.agregarCompra(2,3);
 
         System.out.println("--------------------------------------------");
         System.out.println(ag.mostrarPaquetesDeTurismo());

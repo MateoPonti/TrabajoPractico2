@@ -4,19 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Haciendo UML">
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="uml ej14">
+      <change afterPath="$PROJECT_DIR$/UML y Respuestas a Preguntas/Ej13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/empresaAviones/problemaPlanteado/Pasajero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/empresaAviones/problemaPlanteado/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/empresaAviones/problemaPlanteado/ReciboSueldo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/empresaAviones/problemaPlanteado/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/empresaAviones/problemaPlanteado/Tripulante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/empresaAviones/problemaPlanteado/Vuelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/empresaAviones/solucionPropuesta/Pasajero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/empresaAviones/solucionPropuesta/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/empresaAviones/solucionPropuesta/ReciboSueldo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/empresaAviones/solucionPropuesta/Rol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/empresaAviones/solucionPropuesta/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/empresaAviones/solucionPropuesta/Tripulante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/empresaAviones/solucionPropuesta/Vuelo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Agencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismo/Agencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/Agencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/Agencia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/Compra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/GuiaTurista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/GuiaTurista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/Hospedaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/Hospedaje.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/PaqueteTurismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/PaqueteTurismo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/Proveedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/Proveedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/Transporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/agenciaTurismoEj14/Transporte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,24 +58,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Mateo/IdeaProjects/TrabajoPractico2/src/unlu/poo/empresaAviones/solucionPropuesta",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mateo\IdeaProjects\TrabajoPractico2\src\unlu\poo\empresaAviones\solucionPropuesta" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mateo\IdeaProjects\TrabajoPractico2\UML y Respuestas a Preguntas" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="unlu.poo.empresaAviones.solucionPropuesta" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -117,7 +132,9 @@
       <workItem from="1696036440300" duration="1040000" />
       <workItem from="1696119200289" duration="2300000" />
       <workItem from="1696206158331" duration="561000" />
-      <workItem from="1696270025103" duration="6037000" />
+      <workItem from="1696270025103" duration="6310000" />
+      <workItem from="1696276678276" duration="186000" />
+      <workItem from="1696283811682" duration="3655000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -399,7 +416,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696119901694</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="terminado ej 14 , faltaria optimizarlo">
+      <option name="closed" value="true" />
+      <created>1696276184463</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1696276184463</updated>
+    </task>
+    <task id="LOCAL-00037" summary="uml ej14">
+      <option name="closed" value="true" />
+      <created>1696276402620</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1696276402620</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,6 +473,8 @@
     <MESSAGE value="Terminando ej11" />
     <MESSAGE value="Ej11 terminado de comprobar" />
     <MESSAGE value="Haciendo UML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Haciendo UML" />
+    <MESSAGE value="terminado ej 14 , faltaria optimizarlo" />
+    <MESSAGE value="uml ej14" />
+    <option name="LAST_COMMIT_MESSAGE" value="uml ej14" />
   </component>
 </project>

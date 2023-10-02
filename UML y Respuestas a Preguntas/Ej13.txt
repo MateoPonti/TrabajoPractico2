@@ -1,0 +1,5 @@
+1- Ocurre porque en Herencia en java solo se puede heredar de una clase.
+2- Es un problema de diseño.
+3- El problema del diseño es la parte en donde se encuentra la herencia ,
+una Persona tiene un Rol o varios Roles a lo largo del sistema, la herencia deberia aplicarse
+en el rol y no directamente entre el pasajero/tripulante y la Persona

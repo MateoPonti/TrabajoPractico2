@@ -18,9 +18,9 @@ public class PaqueteTurismo {
     }
     public PaqueteTurismo(ArrayList<Proveedor> proveedores, int cantClientesMax,int cantClientes, String destino) {
         this.proveedores = proveedores;
-        this.cantClientesMax = cantClientesMax;
-        this.destino = destino;
-        this.cantClientes=cantClientes;
+        setCantClientes(cantClientes);
+        setDestino(destino);
+        setCantClientesMax(cantClientesMax);
         for(Proveedor p : proveedores){
             montoTotal=montoTotal+p.calcularValorTotal(cantClientesMax);
         }
@@ -65,6 +65,18 @@ public class PaqueteTurismo {
 
     public String getDestino() {
         return destino;
+    }
+
+    public void setCantClientesMax(int cantClientesMax) {
+        this.cantClientesMax = cantClientesMax;
+    }
+
+    public void setCantClientes(int cantClientes) {
+        this.cantClientes = cantClientes;
+    }
+
+    public void setDestino(String destino) {
+        this.destino = destino.toLowerCase();
     }
 
     public double getMontoTotal() {
