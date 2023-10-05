@@ -175,7 +175,7 @@ public class Sistema {
         Cliente cliente= buscarCliente(clientePatente);
         if ((cliente==null)||(empleado==null) ||(expendedor==null)){ return false;}
 
-        if (empleado.isRealizoDescuento() && InformeVentas.estaEmpleadoTop10Ventas(empleado,ventas)){
+        if (descuentoEmpleado && empleado.isRealizoDescuento() && InformeVentas.estaEmpleadoTop10Ventas(empleado,ventas)){
             empleado.realizoDescuento();
             importeTotal= (float) (importeTotal*0.9);
         }

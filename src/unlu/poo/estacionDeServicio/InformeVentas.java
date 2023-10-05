@@ -24,7 +24,9 @@ public class InformeVentas {
         // Calcula la proporción de ventas para cada tipo de combustible y almacena los resultados en la lista.
         for (String codigo : ventasPorCombustible.keySet()) {
             int cantidadVentas = ventasPorCombustible.get(codigo);
-            float proporción = (float) cantidadVentas / listaDeVentas.size();
+            float proporción;
+            if (cantidadVentas>0){proporción = (float) cantidadVentas / listaDeVentas.size(); }
+            else{proporción = 0; }
             resultados.add(new String[]{"Combustible: " + codigo, "Proporción de ventas: " + String.valueOf(proporción)});
         }
         return resultados;
