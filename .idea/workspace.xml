@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Ejercicio 6 y 7 , falta probar">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/InformeVentas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/InformeVentas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Sistema.java" afterDir="false" />
-    </list>
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="probando ej 6 y 7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +117,7 @@
       <workItem from="1696283811682" duration="3848000" />
       <workItem from="1696293102741" duration="2041000" />
       <workItem from="1696349654912" duration="1632000" />
-      <workItem from="1696463073273" duration="15010000" />
+      <workItem from="1696463073273" duration="15063000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -452,7 +447,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696479854683</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="probando ej 6 y 7">
+      <option name="closed" value="true" />
+      <created>1696480824093</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1696480824093</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ej1 casi terminado" />
     <MESSAGE value="Ej1 terminado" />
     <MESSAGE value="Haciendo Ej2" />
     <MESSAGE value="Casi Listo el ej2" />
@@ -495,6 +497,7 @@
     <MESSAGE value="Ej 13" />
     <MESSAGE value="Haciendo Ej 6" />
     <MESSAGE value="Ejercicio 6 y 7 , falta probar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 6 y 7 , falta probar" />
+    <MESSAGE value="probando ej 6 y 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="probando ej 6 y 7" />
   </component>
 </project>
