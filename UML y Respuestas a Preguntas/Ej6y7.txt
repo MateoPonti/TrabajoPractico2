@@ -1,0 +1,29 @@
+Ej 6:
+
+Problemas de encapsulamiento:
+    1)informeTop10Clientes no deberia devolver una lista de Clientes ya que me pueden modificar sus ventas (lo mas importante del sistema)
+    2)los atributos de empleado , cliente ,expendedor y combustible deberian ser privados para mantener el encapsulamiento.
+-para solucionar lo primero ,en todo caso se deberia devolver una lista con las patentes y nombres de los clientes
+
+Problemas con el sistema:
+    1) No se tiene cuanto litros tiene el surtidor, lo que no permite informar litros x surtidor.
+       Solucion: calcular la cantidad de litros en la venta , se obtiene con precio por litro del combustible y el importe total.
+       Se podria tener cuantos litros tiene un surtidor pero la verdad es que estas restricciones pueden ser un problema,
+       Por tema de que las cargas deberian hacerse al momento , es como se establecio en el enunciado , pero esto no siempre puede pasar
+       , lo cual tendria problemas a la larga.
+    2) modulo de informes tiene clientes y empleados , y no hay ningun metodo para poder agregar esas clases.
+Consideraciones:
+    1)Los informes deberian devolver un String o de una forma , ya que en el diagrama se devuelve como Void,por lo que da a entender que imprime el código en esa clase
+    2)Aunque funcione ya que en el enunciado dice que un expendedor tiene un tipo de combustible ,
+        seria bueno guardar el tipo de combustible que se haya cargado (en caso de que el expendedor cambie de combustible)
+    3) Nombres de los atributos deberian estar en minuscula convencionalmente.
+
+Ej 7 :
+    2)Si los combustibles cambian de precio, se deberia tener que tener una lista de combustibles que tiene la gasolineria,
+    para poder settear los nuevos precios. Por lo tanto los atributos de combustible deben ser privados pero deben tener los metodos publicos setter y getter.
+
+    ¿Qué pasa si el dueño decide vender otros productos además de combustible?
+     Llegado a este caso una Venta deberia tener una lista de Productos o un Producto en caso de que solo se venda por producto,
+     Producto seria una clase abstracta la cual todos los productos a vender deberian heredar.
+
+
