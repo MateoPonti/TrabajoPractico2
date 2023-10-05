@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Ej 13">
-      <change afterPath="$PROJECT_DIR$/UML y Respuestas a Preguntas/Ej6y7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Combustible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Expendedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Sistema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Venta.java" afterDir="false" />
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Haciendo Ej 6">
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/InformeVentas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML y Respuestas a Preguntas/Ej6y7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UML y Respuestas a Preguntas/Ej6y7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Combustible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Combustible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Expendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Sistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/estacionDeServicio/Venta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +132,7 @@
       <workItem from="1696283811682" duration="3848000" />
       <workItem from="1696293102741" duration="2041000" />
       <workItem from="1696349654912" duration="1632000" />
-      <workItem from="1696463073273" duration="2917000" />
+      <workItem from="1696463073273" duration="14071000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -440,7 +446,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696287673816</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Haciendo Ej 6">
+      <option name="closed" value="true" />
+      <created>1696466870500</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1696466870501</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +472,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creacion de ejercicios y ejercicio 9 casi completo" />
     <MESSAGE value="Inicio ej1" />
     <MESSAGE value="ej1 casi terminado" />
     <MESSAGE value="Ej1 terminado" />
@@ -483,6 +496,7 @@
     <MESSAGE value="terminado ej 14 , faltaria optimizarlo" />
     <MESSAGE value="uml ej14" />
     <MESSAGE value="Ej 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ej 13" />
+    <MESSAGE value="Haciendo Ej 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Haciendo Ej 6" />
   </component>
 </project>

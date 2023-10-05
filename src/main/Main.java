@@ -29,7 +29,7 @@ public class Main {
                 case ("4") -> new Ejercicio4();
                 case ("5") -> new Ejercicio5();
                 case ("6") -> new Ejercicio6();
-                case ("7") -> new Ejercicio7();
+                case("7") -> System.out.println("El ejercicio 7 esta implementado con el ejercicio 6.");
                 case("8")  -> new Ejercicio8();
                 case("9")  -> new Ejercicio9();
                 case("10")  -> new Ejercicio10();

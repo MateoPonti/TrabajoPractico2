@@ -12,11 +12,18 @@ Problemas con el sistema:
        Por tema de que las cargas deberian hacerse al momento , es como se establecio en el enunciado , pero esto no siempre puede pasar
        , lo cual tendria problemas a la larga.
     2) modulo de informes tiene clientes y empleados , y no hay ningun metodo para poder agregar esas clases.
+
+
 Consideraciones:
     1)Los informes deberian devolver un String o de una forma , ya que en el diagrama se devuelve como Void,por lo que da a entender que imprime el código en esa clase
     2)Aunque funcione ya que en el enunciado dice que un expendedor tiene un tipo de combustible ,
         seria bueno guardar el tipo de combustible que se haya cargado (en caso de que el expendedor cambie de combustible)
     3) Nombres de los atributos deberian estar en minuscula convencionalmente.
+    4) codigo expendedor me conviene hacerlo String ya que un codigo puede ser que no sea entero luego en el sistema.
+    5) me conviene tener una conexion entre Empleado y venta, y Expendor y Venta tipo array list .
+    ya que puedo saber que expendedor cuantas ventas hizo y preguntarle a cada venta su importe para saber el total de precio que se genero con ese expendedor.
+    Se puede sin tener esa conexion pero es mas complicado ,ya que debes recorrer todas las ventas.
+    6) aunque por el momento solo hay 2 descuentos , estaria bien que descuento fuera una Clase, ya fue diagramado de otra forma pero la verdad lo mas correcto es que sea una clase.
 
 Ej 7 :
     2)Si los combustibles cambian de precio, se deberia tener que tener una lista de combustibles que tiene la gasolineria,
