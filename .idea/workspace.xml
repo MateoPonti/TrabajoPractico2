@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="probando ej 6 y 7" />
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="ej 6 y 7 UML">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/CuentaCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/CuentaCredito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/CuentaNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Cuenta.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,10 +31,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: -1
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2VKRlHwsjDyjp1TAWzC2c9BOeZ2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -118,6 +124,10 @@
       <workItem from="1696293102741" duration="2041000" />
       <workItem from="1696349654912" duration="1632000" />
       <workItem from="1696463073273" duration="15063000" />
+      <workItem from="1696481376556" duration="310000" />
+      <workItem from="1696535977134" duration="1165000" />
+      <workItem from="1696551896741" duration="298000" />
+      <workItem from="1696605568354" duration="2833000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -455,7 +465,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696480824093</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="ej 6 y 7 UML">
+      <option name="closed" value="true" />
+      <created>1696481673554</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1696481673554</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +491,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ej1 terminado" />
     <MESSAGE value="Haciendo Ej2" />
     <MESSAGE value="Casi Listo el ej2" />
     <MESSAGE value="Ej2 Terminado" />
@@ -498,6 +515,7 @@
     <MESSAGE value="Haciendo Ej 6" />
     <MESSAGE value="Ejercicio 6 y 7 , falta probar" />
     <MESSAGE value="probando ej 6 y 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="probando ej 6 y 7" />
+    <MESSAGE value="ej 6 y 7 UML" />
+    <option name="LAST_COMMIT_MESSAGE" value="ej 6 y 7 UML" />
   </component>
 </project>
