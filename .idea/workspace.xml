@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Uml ej 4 y 5">
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/CajaAhorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/Compra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/CuentaCredito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/CuentaNormal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/CuentaSaldo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej4/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej4/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej4/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej4/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej5/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej5/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej5/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej5/Usuario.java" afterDir="false" />
-    </list>
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Terminando ej 12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,15 +127,7 @@
       <workItem from="1696605568354" duration="13820000" />
       <workItem from="1696620070077" duration="1036000" />
       <workItem from="1696621151657" duration="199000" />
-      <workItem from="1696626617874" duration="3374000" />
-    </task>
-    <task id="LOCAL-00002" summary="Creacion del repositorio">
-      <option name="closed" value="true" />
-      <created>1694727761372</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1694727761372</updated>
+      <workItem from="1696626617874" duration="3428000" />
     </task>
     <task id="LOCAL-00003" summary="Creacion de ejercicios y ejercicio 9 casi completo">
       <option name="closed" value="true" />
@@ -537,7 +513,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696617709007</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Terminando ej 12">
+      <option name="closed" value="true" />
+      <created>1696630048015</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1696630048016</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Terminado el punto 3" />
     <MESSAGE value="Haciendo Ej8" />
     <MESSAGE value="Ej 8 casi listo" />
     <MESSAGE value="Ej 8 listo , debo comprobar si falta alguna cosa" />
@@ -580,6 +563,7 @@
     <MESSAGE value="Haciendo ej 5" />
     <MESSAGE value="Ej 5 Terminado" />
     <MESSAGE value="Uml ej 4 y 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uml ej 4 y 5" />
+    <MESSAGE value="Terminando ej 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminando ej 12" />
   </component>
 </project>
