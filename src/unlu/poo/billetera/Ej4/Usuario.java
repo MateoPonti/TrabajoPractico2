@@ -41,7 +41,14 @@ public class Usuario {
         return cuentaCredito.pagar(monto,indice);
     }
 
+    public boolean invertirCuenta(double monto){
+        return cuenta.invertir(monto);
+    }
 
+
+    public boolean obtenerInversion(){
+        return cuenta.recuperarInversion();
+    }
     public String mostrarCuenta(){
         return cuenta.toString();
     }

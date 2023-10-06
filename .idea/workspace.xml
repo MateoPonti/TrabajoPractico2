@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Ej 5 Terminado" />
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Uml ej 4 y 5">
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/CajaAhorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/CuentaCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/CuentaNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/CuentaSaldo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej12/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej4/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej4/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej4/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej4/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej5/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej5/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej5/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej5/Usuario.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -25,10 +41,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2VKRlHwsjDyjp1TAWzC2c9BOeZ2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,25 +53,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Mateo/IdeaProjects/TrabajoPractico2/src/unlu/poo/administradorEjercicios/billetera/Ej5",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mateo/IdeaProjects/TrabajoPractico2/src/unlu/poo/billetera/Ej12&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mateo\IdeaProjects\TrabajoPractico2\src\unlu\poo\billetera\Ej12" />
       <recent name="C:\Users\Mateo\IdeaProjects\TrabajoPractico2\src\unlu\poo\administradorEjercicios\billetera\Ej5" />
       <recent name="C:\Users\Mateo\IdeaProjects\TrabajoPractico2\src\unlu\poo\empresaAviones\solucionPropuesta" />
     </key>
@@ -123,15 +140,10 @@
       <workItem from="1696481376556" duration="310000" />
       <workItem from="1696535977134" duration="1165000" />
       <workItem from="1696551896741" duration="298000" />
-      <workItem from="1696605568354" duration="11443000" />
-    </task>
-    <task id="LOCAL-00001" summary="Creacion del repositorio">
-      <option name="closed" value="true" />
-      <created>1694727475610</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1694727475610</updated>
+      <workItem from="1696605568354" duration="13820000" />
+      <workItem from="1696620070077" duration="1036000" />
+      <workItem from="1696621151657" duration="199000" />
+      <workItem from="1696626617874" duration="3374000" />
     </task>
     <task id="LOCAL-00002" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -517,7 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696616755383</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Uml ej 4 y 5">
+      <option name="closed" value="true" />
+      <created>1696617709006</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1696617709007</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Terminado el punto 3 , debe validarse mas clases" />
     <MESSAGE value="Terminado el punto 3" />
     <MESSAGE value="Haciendo Ej8" />
     <MESSAGE value="Ej 8 casi listo" />
@@ -560,6 +579,7 @@
     <MESSAGE value="Listo Ej4 falta probarlo" />
     <MESSAGE value="Haciendo ej 5" />
     <MESSAGE value="Ej 5 Terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ej 5 Terminado" />
+    <MESSAGE value="Uml ej 4 y 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uml ej 4 y 5" />
   </component>
 </project>

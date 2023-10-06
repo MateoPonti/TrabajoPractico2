@@ -43,9 +43,14 @@ public class Cuenta {
     public boolean  depositar(double cantidad){
         if (cantidad>0){
         if (giroDescubierto<limiteGiroDescubierto){
-            giroDescubierto+=cantidad;
-            if (giroDescubierto<1000){cantidad=0;}
-            else{cantidad= giroDescubierto-1000;}
+            if (getLimiteGiroDescubierto()<cantidad){
+                giroDescubierto=limiteGiroDescubierto;
+                cantidad-=limiteGiroDescubierto;
+            }
+            else{
+                limiteGiroDescubierto+=cantidad;
+                cantidad=0;
+            }
         }
         this.saldo+=cantidad;
         return true;
@@ -70,11 +75,9 @@ public class Cuenta {
         return EstadoPagar.NoSePudoPagar;
     }
     public boolean invertir(double cantidad){
-        boolean esFecha= (fechaInversion==null) || (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion)));
-        if ((saldo>=cantidad)  && esFecha) {
+        if (saldo>=cantidad){
             fechaInversion=LocalDate.now();
-            saldo-=cantidad;
-            saldoInvertido+=cantidad;
+            saldoInvertido= saldoInvertido+cantidad;
             return true;
         }
         return false;
@@ -83,11 +86,13 @@ public class Cuenta {
     public boolean recuperarInversion(){
         if (fechaInversion==null){return false;}
         boolean esFecha= (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion-1))); // pasaron 29 dias al menos ?
-        if (esFecha){saldo+=interesAGanar()*(1+interesPorinversion);}
-        else{saldo+= interesAGanar();} // no hay interes
+        if (esFecha){depositar(interesAGanar()*(1+interesPorinversion));}
+        else{depositar(interesAGanar());} // no hay interes
         saldoInvertido=0;
         return true;
     }
+
+
 
     public double interesAGanar(){
         return interesPorinversion*this.saldoInvertido;

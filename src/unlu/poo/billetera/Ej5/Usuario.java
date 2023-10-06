@@ -65,6 +65,14 @@ public class Usuario {
         return this.cuentaCredito!=null;
     }
 
+    public boolean invertirCuenta(double monto){
+        return cuenta.invertir(monto);
+    }
+
+
+    public boolean obtenerInversion(){
+        return cuenta.recuperarInversion();
+    }
     @Override
     public String toString() {
         return "Usuario{" +"\n"+

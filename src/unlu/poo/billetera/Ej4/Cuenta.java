@@ -30,13 +30,18 @@ public class Cuenta {
 
     public boolean  depositar(double cantidad){
         if (cantidad>0){
-        if (giroDescubierto<limiteGiroDescubierto){
-            giroDescubierto+=cantidad;
-            if (giroDescubierto<1000){cantidad=0;}
-            else{cantidad= giroDescubierto-1000;}
-        }
-        this.saldo+=cantidad;
-        return true;
+            if (giroDescubierto<limiteGiroDescubierto){
+                if (getLimiteGiroDescubierto()<cantidad){
+                    giroDescubierto=limiteGiroDescubierto;
+                    cantidad-=limiteGiroDescubierto;
+                }
+                else{
+                    limiteGiroDescubierto+=cantidad;
+                    cantidad=0;
+                }
+            }
+            this.saldo+=cantidad;
+            return true;
         }
         return false;
     }
@@ -56,25 +61,26 @@ public class Cuenta {
         return EstadoPagar.NoSePudoPagar;
     }
     public boolean invertir(double cantidad){
-        boolean esFecha= (fechaInversion==null) || (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion)));
-        if ((saldo>=cantidad)  && esFecha) {
-            fechaInversion=LocalDate.now();
-            saldo-=cantidad;
-            saldoInvertido+=cantidad;
-            return true;
+        if (saldo>=cantidad){
+          fechaInversion=LocalDate.now();
+          saldoInvertido= saldoInvertido+cantidad;
+          return true;
         }
         return false;
     }
 
     public boolean recuperarInversion(){
-        boolean esFecha= (fechaInversion!=null) || (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion-1)));
+        boolean esFecha= fechaInversion!=null;
         if (esFecha){
+            if (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion-1))){
             saldo+=interesAGanar()*(1+interesPorinversion);
             saldoInvertido=0;
+                System.out.println(fechaInversion.plusDays(diasInversion-1));
+            return true;
+            }
+
         }
         return false;
-
-
     }
 
     public double interesAGanar(){

@@ -21,6 +21,16 @@ public class Ejercicio4 {
 
         System.out.println(n.mostrarCuenta());
 
+        System.out.println("-------------------------------------");
+        System.out.println("Cargo 2000 pesos para poder cargar la plata del giro y poder invertir");
+        c.depositar(2000);
+        System.out.println("Invierto 50 pesos");
+        c.invertir(50);
+        System.out.println(c);
+        System.out.println("---------------------------------------");
+        System.out.println("Se fija si se puede recuperar inversion: "+n.obtenerInversion()+" en este caso no puede le falta n dias");
+
+
 
 
 
