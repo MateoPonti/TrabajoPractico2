@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Terminadno los ultimos 3 ej , (4,5,12)">
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Ej 4 , cuenta normal">
+      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Compra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML y Respuestas a Preguntas/Ej4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UML y Respuestas a Preguntas/Ej4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/CuentaCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/CuentaCredito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +128,7 @@
       <workItem from="1696481376556" duration="310000" />
       <workItem from="1696535977134" duration="1165000" />
       <workItem from="1696551896741" duration="298000" />
-      <workItem from="1696605568354" duration="4263000" />
+      <workItem from="1696605568354" duration="7441000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -478,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696608749954</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Ej 4 , cuenta normal">
+      <option name="closed" value="true" />
+      <created>1696610128751</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1696610128751</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +508,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Casi Listo el ej2" />
     <MESSAGE value="Ej2 Terminado" />
     <MESSAGE value="Inicio Ej 3" />
     <MESSAGE value="Falta Poco del Ej 3" />
@@ -521,6 +532,7 @@
     <MESSAGE value="probando ej 6 y 7" />
     <MESSAGE value="ej 6 y 7 UML" />
     <MESSAGE value="Terminadno los ultimos 3 ej , (4,5,12)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminadno los ultimos 3 ej , (4,5,12)" />
+    <MESSAGE value="Ej 4 , cuenta normal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ej 4 , cuenta normal" />
   </component>
 </project>

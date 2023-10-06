@@ -103,4 +103,13 @@ public class Cuenta {
     }
 
 
+    @Override
+    public String toString() {
+        return
+                "saldo=" + saldo +
+                ", limiteGiroDescubierto=" + limiteGiroDescubierto +
+                ", giroDescubierto=" + giroDescubierto +
+                ", saldoInvertido=" + saldoInvertido +
+                ", fechaInversion=" + fechaInversion ;
+    }
 }

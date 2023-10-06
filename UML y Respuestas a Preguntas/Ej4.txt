@@ -1,3 +1,7 @@
 Cosas a corregir del modelo:
     * los Atributos de la clase Cuenta deberian estar en privado para mantener el encapsulamiento
-    *
+    *Faltan modelar unos cuantos metodos , por ejemplo con que tipo de cuenta va a pagar el usuario.
+    * agregar la variable cantidadDiasInversion en Cuenta
+    *Antes de tener pagados y compras , tener un objeto llamado Compra con un estado de pagado o de compra y su monto
+    *Indice de compra como tal es un strnig pero no deberia ser el indice al array necesariamente,
+    ya que rompe un poco el hide information , porque el usuario sabe como se manejaria las compras
