@@ -1,4 +1,4 @@
-package unlu.poo.billetera;
+package unlu.poo.administradorEjercicios.billetera.Ej5;
 
 public enum EstadoPagar {
     NoSePudoPagar,

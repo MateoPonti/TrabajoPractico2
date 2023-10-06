@@ -1,4 +1,4 @@
-package unlu.poo.billetera;
+package unlu.poo.administradorEjercicios.billetera.Ej4;
 
 public class Usuario {
     private Cuenta cuenta;
