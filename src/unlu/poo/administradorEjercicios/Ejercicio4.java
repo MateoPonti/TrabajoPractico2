@@ -1,8 +1,8 @@
 package unlu.poo.administradorEjercicios;
 
-import unlu.poo.administradorEjercicios.billetera.Ej4.Cuenta;
-import unlu.poo.administradorEjercicios.billetera.Ej4.CuentaCredito;
-import unlu.poo.administradorEjercicios.billetera.Ej4.Usuario;
+import unlu.poo.billetera.Ej4.Cuenta;
+import unlu.poo.billetera.Ej4.CuentaCredito;
+import unlu.poo.billetera.Ej4.Usuario;
 
 public class Ejercicio4 {
     public Ejercicio4(){

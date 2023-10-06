@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Listo ej 4 , falta Probar">
-      <change afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/EstadoPagar.java" afterDir="false" />
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Haciendo ej 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/CuentaCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/CuentaCredito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlu/poo/billetera/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/Ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/billetera/Ej4/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej4/Compra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/billetera/Ej4/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej4/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/billetera/Ej4/CuentaCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej4/CuentaCredito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/billetera/Ej4/EstadoPagar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/EstadoPagar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/billetera/Ej4/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej4/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/billetera/Ej5/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej5/Compra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/billetera/Ej5/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej5/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/billetera/Ej5/CuentaCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej5/CuentaCredito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/billetera/Ej5/EstadoPagar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlu/poo/administradorEjercicios/billetera/Ej5/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlu/poo/billetera/Ej5/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,31 +51,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mateo/IdeaProjects/TrabajoPractico2/src/unlu/poo/empresaAviones/solucionPropuesta&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Mateo/IdeaProjects/TrabajoPractico2/src/unlu/poo/administradorEjercicios/billetera/Ej5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mateo\IdeaProjects\TrabajoPractico2\src\unlu\poo\administradorEjercicios\billetera\Ej5" />
       <recent name="C:\Users\Mateo\IdeaProjects\TrabajoPractico2\src\unlu\poo\empresaAviones\solucionPropuesta" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mateo\IdeaProjects\TrabajoPractico2\UML y Respuestas a Preguntas" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="unlu.poo.administradorEjercicios.billetera.Ej5" />
       <recent name="unlu.poo.empresaAviones.solucionPropuesta" />
     </key>
   </component>
@@ -128,7 +137,7 @@
       <workItem from="1696481376556" duration="310000" />
       <workItem from="1696535977134" duration="1165000" />
       <workItem from="1696551896741" duration="298000" />
-      <workItem from="1696605568354" duration="8661000" />
+      <workItem from="1696605568354" duration="10826000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del repositorio">
       <option name="closed" value="true" />
@@ -498,7 +507,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696613350074</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Listo Ej4 falta probarlo">
+      <option name="closed" value="true" />
+      <created>1696614570320</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1696614570320</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Haciendo ej 5">
+      <option name="closed" value="true" />
+      <created>1696614852519</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1696614852519</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,8 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Inicio Ej 3" />
-    <MESSAGE value="Falta Poco del Ej 3" />
     <MESSAGE value="Casi terminado el punto 3 debe comprobrse luego" />
     <MESSAGE value="Terminado el punto 3 , debe validarse mas clases" />
     <MESSAGE value="Terminado el punto 3" />
@@ -541,6 +564,8 @@
     <MESSAGE value="Terminadno los ultimos 3 ej , (4,5,12)" />
     <MESSAGE value="Ej 4 , cuenta normal" />
     <MESSAGE value="Listo ej 4 , falta Probar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Listo ej 4 , falta Probar" />
+    <MESSAGE value="Listo Ej4 falta probarlo" />
+    <MESSAGE value="Haciendo ej 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Haciendo ej 5" />
   </component>
 </project>

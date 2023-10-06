@@ -1,4 +1,6 @@
-package unlu.poo.administradorEjercicios.billetera.Ej5;
+package unlu.poo.billetera.Ej4;
+
+import unlu.poo.billetera.EstadoPagar;
 
 import java.time.LocalDate;
 
@@ -7,7 +9,7 @@ public class Cuenta {
     private  double limiteGiroDescubierto=1000;
     private double giroDescubierto;
     private double saldoInvertido=0;
-    private static final double interesPorinversion=0.05;
+    private static final double interesPorinversion=0.4;
     private static final int diasInversion= 15;
     private LocalDate fechaInversion;
 
@@ -56,7 +58,7 @@ public class Cuenta {
     public boolean invertir(double cantidad){
         boolean esFecha= (fechaInversion==null) || (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion)));
         if ((saldo>=cantidad)  && esFecha) {
-            LocalDate fechaInversion=LocalDate.now();
+            fechaInversion=LocalDate.now();
             saldo-=cantidad;
             saldoInvertido+=cantidad;
             return true;
@@ -65,9 +67,9 @@ public class Cuenta {
     }
 
     public boolean recuperarInversion(){
-        boolean esFecha= (fechaInversion!=null) || (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion)));
+        boolean esFecha= (fechaInversion!=null) || (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion-1)));
         if (esFecha){
-            saldo+=interesAGanar();
+            saldo+=interesAGanar()*(1+interesPorinversion);
             saldoInvertido=0;
         }
         return false;

@@ -1,4 +1,6 @@
-package unlu.poo.administradorEjercicios.billetera.Ej4;
+package unlu.poo.billetera.Ej4;
+
+import unlu.poo.billetera.EstadoPagar;
 
 public class Usuario {
     private Cuenta cuenta;

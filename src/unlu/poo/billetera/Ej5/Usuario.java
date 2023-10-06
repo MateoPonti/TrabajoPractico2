@@ -1,4 +1,6 @@
-package unlu.poo.administradorEjercicios.billetera.Ej5;
+package unlu.poo.billetera.Ej5;
+
+import unlu.poo.billetera.EstadoPagar;
 
 public class Usuario {
     private Cuenta cuenta;
@@ -25,6 +27,7 @@ public class Usuario {
 
     public EstadoPagar gastarCuenta(double monto){
         return  this.cuenta.gastar(monto);
+
     }
 
     public boolean gastarCuentaCredito(double monto){
@@ -40,6 +43,13 @@ public class Usuario {
     }
 
 
+    public void  activarPreeCancelar(){
+       cuenta.setPreeCancelar(true);
+    }
+
+    public void  desactivarPreeCancelar(){
+        cuenta.setPreeCancelar(false);
+    }
     public String mostrarCuenta(){
         return cuenta.toString();
     }

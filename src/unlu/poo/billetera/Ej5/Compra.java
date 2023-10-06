@@ -1,4 +1,4 @@
-package unlu.poo.administradorEjercicios.billetera.Ej5;
+package unlu.poo.billetera.Ej5;
 
 public class Compra {
     private  boolean pagado;

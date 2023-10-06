@@ -1,4 +1,6 @@
-package unlu.poo.administradorEjercicios.billetera.Ej4;
+package unlu.poo.billetera.Ej5;
+
+import unlu.poo.billetera.EstadoPagar;
 
 import java.time.LocalDate;
 
@@ -8,12 +10,24 @@ public class Cuenta {
     private double giroDescubierto;
     private double saldoInvertido=0;
     private static final double interesPorinversion=0.05;
-    private static final int diasInversion= 15;
+    private static final int diasInversion= 30;
     private LocalDate fechaInversion;
+
+    private boolean preeCancelar;
+
+
 
     public Cuenta(double saldo, double giroDescubierto) {
         this.saldo = saldo;
         setGiroDescubierto(giroDescubierto);
+    }
+
+    public boolean isPreeCancelar() {
+        return preeCancelar;
+    }
+
+    public void setPreeCancelar(boolean preeCancelar) {
+        this.preeCancelar = preeCancelar;
     }
 
     public void setGiroDescubierto(double giroDescubierto) {
@@ -45,10 +59,12 @@ public class Cuenta {
            return EstadoPagar.RealizoPago;
            }
            else {
+               if(!preeCancelar){
                cantidad-=saldo;
                saldo=0;
                giroDescubierto-=cantidad;
-               return EstadoPagar.PagoConGiro;
+               return EstadoPagar.PagoConGiro;}
+               return EstadoPagar.PagoCanceladoPorGiro;
            }
         }
         return EstadoPagar.NoSePudoPagar;
@@ -56,7 +72,7 @@ public class Cuenta {
     public boolean invertir(double cantidad){
         boolean esFecha= (fechaInversion==null) || (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion)));
         if ((saldo>=cantidad)  && esFecha) {
-            LocalDate fechaInversion=LocalDate.now();
+            fechaInversion=LocalDate.now();
             saldo-=cantidad;
             saldoInvertido+=cantidad;
             return true;
@@ -65,14 +81,12 @@ public class Cuenta {
     }
 
     public boolean recuperarInversion(){
-        boolean esFecha= (fechaInversion!=null) || (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion)));
-        if (esFecha){
-            saldo+=interesAGanar();
-            saldoInvertido=0;
-        }
-        return false;
-
-
+        if (fechaInversion==null){return false;}
+        boolean esFecha= (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion-1))); // pasaron 29 dias al menos ?
+        if (esFecha){saldo+=interesAGanar()*(1+interesPorinversion);}
+        else{saldo+= interesAGanar();} // no hay interes
+        saldoInvertido=0;
+        return true;
     }
 
     public double interesAGanar(){
