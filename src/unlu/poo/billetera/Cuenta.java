@@ -4,13 +4,17 @@ import java.time.LocalDate;
 
 public class Cuenta {
     private double saldo;
-    private static  final double limiteGiroDescubierto=1000;
+    private  double limiteGiroDescubierto=1000;
     private double giroDescubierto;
-    private double saldoInvertido;
+    private double saldoInvertido=0;
     private static final double interesPorinversion=0.05;
+    private static final int diasInversion= 15;
     private LocalDate fechaInversion;
 
-
+    public Cuenta(double saldo, double giroDescubierto) {
+        this.saldo = saldo;
+        this.giroDescubierto = giroDescubierto;
+    }
 
     public double calcularMontoTotal() {
         return saldo+ limiteGiroDescubierto;
@@ -41,9 +45,62 @@ public class Cuenta {
         }
         return false;
     }
+    public boolean invertir(double cantidad){
+        boolean esFecha= (fechaInversion==null) || (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion)));
+        if ((saldo>=cantidad)  && esFecha) {
+            LocalDate fechaInversion=LocalDate.now();
+            saldo-=cantidad;
+            saldoInvertido+=cantidad;
+            return true;
+        }
+        return false;
+    }
+
+    public boolean recuperarInversion(){
+        boolean esFecha= (fechaInversion!=null) || (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion)));
+        if (esFecha){
+            saldo+=interesAGanar();
+            saldoInvertido=0;
+        }
+        return false;
+
+
+    }
+
+    public double interesAGanar(){
+        return interesPorinversion*this.saldoInvertido;
+    }
+
+
+    public double getSaldo() {
+        return saldo;
+    }
 
 
 
+    public double getLimiteGiroDescubierto() {
+        return limiteGiroDescubierto;
+    }
+
+    public void setLimiteGiroDescubierto(double limiteGiroDescubierto) {
+        this.limiteGiroDescubierto = limiteGiroDescubierto;
+    }
+
+    public double getGiroDescubierto() {
+        return giroDescubierto;
+    }
+
+
+
+    public double getSaldoInvertido() {
+        return saldoInvertido;
+    }
+
+
+
+    public LocalDate getFechaInversion() {
+        return fechaInversion;
+    }
 
 
 }
