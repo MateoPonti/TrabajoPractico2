@@ -58,8 +58,8 @@ public class CuentaCredito {
     @Override
     public String toString() {
         return 
-                "compras=" +"\n"+ mostrarCompras() +
-                ", Monto Disponible= " + String.valueOf(getMontoDisponible())+", saldo deudor= "+ String.valueOf(getSaldoDeudor());
+                "compras=" +"\n"+ mostrarCompras() +"\n"+
+                "Monto Disponible= " + String.valueOf(getMontoDisponible())+", saldo deudor= "+ String.valueOf(getSaldoDeudor());
     }
 
     private String mostrarCompras() {

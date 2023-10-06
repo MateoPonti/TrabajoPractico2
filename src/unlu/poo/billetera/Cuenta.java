@@ -13,8 +13,14 @@ public class Cuenta {
 
     public Cuenta(double saldo, double giroDescubierto) {
         this.saldo = saldo;
-        this.giroDescubierto = giroDescubierto;
+        setGiroDescubierto(giroDescubierto);
     }
+
+    public void setGiroDescubierto(double giroDescubierto) {
+        if (giroDescubierto>1000) {this.giroDescubierto=1000;}
+        else {this.giroDescubierto = giroDescubierto;}
+    }
+
 
     public double calcularMontoTotal() {
         return saldo+ limiteGiroDescubierto;
@@ -33,17 +39,19 @@ public class Cuenta {
         return false;
     }
 
-    public boolean gastar(double cantidad){
-        if ((cantidad>0) && ((saldo+giroDescubierto)>cantidad)){
-           if (saldo>=cantidad){saldo-=cantidad;}
+    public EstadoPagar gastar(double cantidad){
+        if ((cantidad>0) && ((saldo+giroDescubierto)>=cantidad)){
+           if (saldo>=cantidad){saldo-=cantidad;
+           return EstadoPagar.RealizoPago;
+           }
            else {
                cantidad-=saldo;
                saldo=0;
                giroDescubierto-=cantidad;
+               return EstadoPagar.PagoConGiro;
            }
-           return true;
         }
-        return false;
+        return EstadoPagar.NoSePudoPagar;
     }
     public boolean invertir(double cantidad){
         boolean esFecha= (fechaInversion==null) || (LocalDate.now().isAfter(fechaInversion.plusDays(diasInversion)));
