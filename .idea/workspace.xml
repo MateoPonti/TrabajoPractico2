@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Trabajo Completo" />
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Fin del tp" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,14 +133,7 @@
       <workItem from="1696638057577" duration="168000" />
       <workItem from="1696639374649" duration="200000" />
       <workItem from="1696639653205" duration="103000" />
-    </task>
-    <task id="LOCAL-00005" summary="ej1 casi terminado">
-      <option name="closed" value="true" />
-      <created>1695006447766</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1695006447766</updated>
+      <workItem from="1696640367703" duration="94000" />
     </task>
     <task id="LOCAL-00006" summary="Ej1 terminado">
       <option name="closed" value="true" />
@@ -526,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696639717839</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Fin del tp">
+      <option name="closed" value="true" />
+      <created>1696640452298</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1696640452299</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ej 8 casi listo" />
     <MESSAGE value="Ej 8 listo , debo comprobar si falta alguna cosa" />
     <MESSAGE value="Ej 9 Listo , falta UML" />
     <MESSAGE value="haciendo Ej10" />
@@ -569,6 +569,7 @@
     <MESSAGE value="Uml ej 4 y 5" />
     <MESSAGE value="Terminando ej 12" />
     <MESSAGE value="Trabajo Completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trabajo Completo" />
+    <MESSAGE value="Fin del tp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin del tp" />
   </component>
 </project>
