@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Terminando ej 12">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6797bae3-07a0-4aa7-b0ab-e2f780250718" name="Changes" comment="Trabajo Completo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,14 +132,7 @@
       <workItem from="1696630766964" duration="223000" />
       <workItem from="1696638057577" duration="168000" />
       <workItem from="1696639374649" duration="200000" />
-    </task>
-    <task id="LOCAL-00004" summary="Inicio ej1">
-      <option name="closed" value="true" />
-      <created>1694978022992</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1694978022992</updated>
+      <workItem from="1696639653205" duration="103000" />
     </task>
     <task id="LOCAL-00005" summary="ej1 casi terminado">
       <option name="closed" value="true" />
@@ -527,7 +518,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696630222746</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Trabajo Completo">
+      <option name="closed" value="true" />
+      <created>1696639717838</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1696639717839</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Haciendo Ej8" />
     <MESSAGE value="Ej 8 casi listo" />
     <MESSAGE value="Ej 8 listo , debo comprobar si falta alguna cosa" />
     <MESSAGE value="Ej 9 Listo , falta UML" />
@@ -570,6 +568,7 @@
     <MESSAGE value="Ej 5 Terminado" />
     <MESSAGE value="Uml ej 4 y 5" />
     <MESSAGE value="Terminando ej 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminando ej 12" />
+    <MESSAGE value="Trabajo Completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trabajo Completo" />
   </component>
 </project>
